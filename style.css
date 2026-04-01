@@ -1,0 +1,46 @@
+/* Custom Font Definition */
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('./fonts/SVN-Gilroy.woff2') format('woff2');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('./fonts/SVN-GilroyMedium.woff2') format('woff2');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('./fonts/SVN-GilroySemiBold.woff2') format('woff2');
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('./fonts/SVN-GilroyBold.woff2') format('woff2');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* UIkit Font Overrides */
+:root {
+  --uk-global-font-family: 'SVN-Gilroy', "Helvetica Neue", Arial, sans-serif;
+  --uk-heading-font-family: 'SVN-Gilroy', "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body {
+  font-family: var(--uk-global-font-family) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--uk-heading-font-family) !important;
+}
