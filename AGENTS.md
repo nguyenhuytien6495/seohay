@@ -31,9 +31,12 @@ seohay/
 6. Images dùng format `.webp`, đặt trong thư mục `image/`
 
 ## HTML Layout Patterns
-- Section wrapper: `uk-section` > `uk-container` > `uk-grid`
+- **Section structure** (BẮT BUỘC): `<section>` > `<div class="uk-container">` hoặc `<div class="uk-container-large">`
+  - Luôn dùng `uk-container`, nếu cần rộng hơn thì: `<div class="uk-container uk-container-large">`
+- Slider/Carousel: dùng UIkit `uk-slider`, KHÔNG tự code carousel
 - Responsive breakpoints: `@s` (640px), `@m` (960px), `@l` (1200px)
-- Header: `uk-navbar-container`, chỉ hiện desktop với `uk-visible@m`
+- Header desktop: `uk-visible@m` với `uk-navbar` + `uk-sticky`
+- Header mobile: `uk-hidden@l` với `uk-offcanvas`
 - Cards: `uk-card uk-card-default` + custom BEM classes (`ju_*`)
 - Forms: `uk-input`, `uk-textarea` + custom `ju_form_*` classes
 

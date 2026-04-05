@@ -28,10 +28,21 @@ seohay/
 - Font override qua CSS variables trong `style.css`
 
 ### HTML Layout
-- Pattern: `uk-section` > `uk-container` > `uk-grid`
-- Responsive: dùng UIkit breakpoints (`@s`, `@m`, `@l`)
-- Header chỉ hiện desktop: `uk-visible@m`
-- Images dùng `.webp`
+- **Section structure** (BẮT BUỘC): Mọi section đều phải bọc trong `<section>` > `<div class="uk-container">` hoặc `<div class="uk-container-large">`:
+  ```html
+  <section class="ju_section_name">
+    <div class="uk-container">
+      <!-- nội dung section -->
+    </div>
+  </section>
+  ```
+  - Luôn dùng `uk-container`, nếu cần rộng hơn thì thêm `uk-container-large`: `<div class="uk-container uk-container-large">`
+- **Grid**: `uk-grid` với `uk-width-*` cho layout cột
+- **Slider/Carousel**: dùng UIkit `uk-slider` (https://getuikit.com/docs/slider), KHÔNG tự code carousel
+- **Header desktop**: `uk-visible@m` với `uk-navbar`, sticky dùng `uk-sticky`
+- **Header mobile**: `uk-hidden@l` với `uk-offcanvas` cho menu
+- **Responsive**: dùng UIkit breakpoints (`@s`, `@m`, `@l`)
+- Images dùng `.webp` hoặc `.png`
 
 ### SEO
 - Đầy đủ meta tags: OG, Twitter Card, Schema.org JSON-LD, Dublin Core
