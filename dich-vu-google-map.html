@@ -539,17 +539,27 @@
 
     .ju_trust__content {
       display: flex;
-      align-items: center;
+      align-items: stretch;
       justify-content: center;
-      gap: 40px;
+      min-height: 255px;
+      gap: 24px;
     }
 
-    .ju_trust__chart {
-      max-width: 266px;
+    .ju_trust__side {
+      width: auto;
+      min-width: auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
     }
 
-    .ju_trust__chart--right {
-      max-width: 300px;
+    .ju_trust__center {
+      flex: 1;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
     }
 
     .ju_trust__toggle {
@@ -557,7 +567,6 @@
       align-items: center;
       justify-content: center;
       gap: 33px;
-      margin-bottom: 40px;
     }
 
     .ju_trust__toggle_label {
@@ -573,16 +582,33 @@
       color: #212121;
     }
 
+    .ju_trust__toggle_switch {
+      width: 60px;
+      height: 30px;
+      background: #E9EBF3;
+      border-radius: 30px;
+      position: relative;
+      cursor: pointer;
+      padding: 2px;
+    }
+
+    .ju_trust__toggle_knob {
+      width: 26px;
+      height: 26px;
+      background: #0454F2;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 20, 128, 0.3);
+    }
+
     .ju_trust__metrics {
       display: flex;
-      gap: 24px;
       justify-content: center;
     }
 
     .ju_trust__metric {
       text-align: center;
-      flex: 1;
-      max-width: 230px;
+      width: 230px;
+      padding: 10px;
     }
 
     .ju_trust__metric_value {
@@ -590,19 +616,26 @@
       font-weight: 600;
       color: #212121;
       margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
     }
 
     .ju_trust__metric_indicator {
-      color: #FF0000;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 20px solid #FF0000;
       display: inline-block;
-      margin-left: 4px;
     }
 
     .ju_trust__metric_label {
       font-size: 18px;
       font-weight: 500;
       color: #676666;
-      margin: 4px 0 0;
+      margin: 32px 0 0;
     }
 
     /* ===== TESTIMONIAL ===== */
@@ -680,24 +713,20 @@
       color: #fff;
     }
 
-    .ju_testimonial__cards {
+    .ju_testimonial__slider {
       flex: 1;
-      display: flex;
-      gap: 27px;
-      overflow-x: auto;
-      position: relative;
+      min-width: 0;
     }
 
-    .ju_testimonial__cards::-webkit-scrollbar {
-      display: none;
+    .ju_testimonial__slider .uk-slider-items>li {
+      padding-right: 27px;
     }
 
     .ju_testimonial_card {
-      min-width: 560px;
-      flex-shrink: 0;
       display: flex;
       flex-direction: column;
       gap: 16px;
+      height: 100%;
     }
 
     .ju_testimonial_card__stars {
@@ -997,10 +1026,6 @@
         min-width: 340px;
         width: 340px;
       }
-
-      .ju_testimonial_card {
-        min-width: 420px;
-      }
     }
 
     @media (max-width: 959px) {
@@ -1063,13 +1088,8 @@
         height: auto;
       }
 
-      .ju_trust__content {
-        flex-direction: column;
-      }
-
-      .ju_trust__chart,
-      .ju_trust__chart--right {
-        max-width: 200px;
+      .ju_trust__center {
+        max-width: 100%;
       }
 
       .ju_cta_banner__inner {
@@ -1131,13 +1151,57 @@
         max-height: 460px;
       }
 
-      .ju_trust__metrics {
+      .ju_trust__content {
         flex-direction: column;
-        align-items: center;
+        gap: 24px;
       }
 
-      .ju_testimonial_card {
-        min-width: 300px;
+      .ju_trust__center {
+        order: 1;
+        padding-top: 0;
+      }
+
+      .ju_trust__side:first-child {
+        order: 2;
+      }
+
+      .ju_trust__side:last-child {
+        order: 3;
+      }
+
+      .ju_trust__side {
+        width: 100%;
+        min-width: unset;
+        justify-content: center;
+      }
+
+      .ju_trust__chart,
+      .ju_trust__chart--right {
+        position: static;
+        width: auto;
+        max-width: 100%;
+      }
+
+      .ju_trust__metrics {
+        flex-direction: row;
+      }
+
+      .ju_trust__metric {
+        width: auto;
+        flex: 1;
+      }
+
+      .ju_trust__metric_value {
+        font-size: 24px;
+      }
+
+      .ju_trust__metric_label {
+        margin-top: 16px;
+        font-size: 14px;
+      }
+
+      .ju_testimonial__slider .uk-slider-items>li {
+        padding-right: 0;
       }
 
       .ju_cta_banner__form {
@@ -1653,30 +1717,39 @@
         <h2 class="ju_section_title">Hiệu quả thể hiện qua các con số</h2>
         <p class="ju_section_subtitle">Chúng tôi ưu tiên an toàn và uy tín lâu dài cho doanh nghiệp.</p>
       </div>
+    </div>
+    <div class="uk-container uk-container-large">
       <div class="ju_trust__content">
-        <img src="image/google-map/chart-before.png" alt="Before chart" class="ju_trust__chart" />
-        <div>
+        <div class="ju_trust__side">
+          <img src="image/google-map/chart-before.png" alt="Before chart" class="ju_trust__chart" />
+        </div>
+        <div class="ju_trust__center">
           <div class="ju_trust__toggle">
             <span class="ju_trust__toggle_label ju_trust__toggle_label--active">BEFORE</span>
-            <span uk-icon="icon: arrow-right; ratio: 1.5"></span>
+            <div class="ju_trust__toggle_switch">
+              <div class="ju_trust__toggle_knob"></div>
+            </div>
             <span class="ju_trust__toggle_label ju_trust__toggle_label--inactive">AFTER</span>
           </div>
           <div class="ju_trust__metrics">
             <div class="ju_trust__metric">
-              <p class="ju_trust__metric_value">20K <span class="ju_trust__metric_indicator">▲</span></p>
+              <p class="ju_trust__metric_value">20K <span class="ju_trust__metric_indicator"></span></p>
               <p class="ju_trust__metric_label">Tên thông số</p>
             </div>
             <div class="ju_trust__metric">
-              <p class="ju_trust__metric_value">20K <span class="ju_trust__metric_indicator">▲</span></p>
+              <p class="ju_trust__metric_value">20K <span class="ju_trust__metric_indicator"></span></p>
               <p class="ju_trust__metric_label">Tên thông số</p>
             </div>
             <div class="ju_trust__metric">
-              <p class="ju_trust__metric_value">20K <span class="ju_trust__metric_indicator">▲</span></p>
+              <p class="ju_trust__metric_value">20K <span class="ju_trust__metric_indicator"></span></p>
               <p class="ju_trust__metric_label">Tên thông số</p>
             </div>
           </div>
         </div>
-        <img src="image/google-map/chart-after.png" alt="After chart" class="ju_trust__chart ju_trust__chart--right" />
+        <div class="ju_trust__side">
+          <img src="image/google-map/chart-after.png" alt="After chart"
+            class="ju_trust__chart ju_trust__chart--right" />
+        </div>
       </div>
     </div>
   </section>
@@ -1684,66 +1757,74 @@
   <!-- TESTIMONIAL -->
   <section class="ju_testimonial">
     <div class="uk-container">
-      <div style="margin-bottom:54px">
+      <div class="uk-text-center" style="margin-bottom:54px">
         <span class="ju_section_tag">
           <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
             <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
           </svg>
           TESTIMONIAL
         </span>
-        <h2 class="ju_section_title" style="max-width:624px">Khách hàng nói gì về dịch vụ SEO của chúng tôi</h2>
+        <h2 class="ju_section_title" style="max-width:624px;margin-left:auto;margin-right:auto">Khách hàng nói gì về
+          dịch vụ SEO của chúng tôi</h2>
         <p class="ju_section_subtitle">Niềm tin được xây dựng từ kết quả thực tế và sự đồng hành lâu dài.</p>
       </div>
     </div>
-    <div class="ju_testimonial__content">
-      <div class="ju_testimonial__rating">
-        <div class="ju_testimonial__rating_bg"></div>
-        <div class="ju_testimonial__rating_inner">
-          <div>
-            <span style="color:#FFB800;font-size:24px">★ ★ ★ ★ ★</span>
-            <div class="ju_testimonial__score">4.7</div>
-            <p class="ju_testimonial__rating_text">We value your opinion: share your review with us</p>
+    <div class="uk-container uk-container-large">
+      <div class="ju_testimonial__content">
+        <div class="ju_testimonial__rating">
+          <div class="ju_testimonial__rating_bg"></div>
+          <div class="ju_testimonial__rating_inner">
+            <div>
+              <span style="color:#FFB800;font-size:24px">★ ★ ★ ★ ★</span>
+              <div class="ju_testimonial__score">4.7</div>
+              <p class="ju_testimonial__rating_text">We value your opinion: share your review with us</p>
+            </div>
+            <a href="contact.html" class="ju_testimonial__rating_btn">Get In Touch</a>
           </div>
-          <a href="contact.html" class="ju_testimonial__rating_btn">Get In Touch</a>
+        </div>
+        <div class="ju_testimonial__slider" uk-slider="autoplay: true; autoplay-interval: 5000">
+          <ul class="uk-slider-items">
+            <li class=" uk-width-1-1 uk-width-4-5@s">
+              <div class="ju_testimonial_card">
+                <div class="ju_testimonial_card__stars">
+                  <div style="color:#FFB800">★ ★ ★ ★ ★</div>
+                  <span uk-icon="icon: quote-right; ratio: 1.5" style="color:#0454F2"></span>
+                </div>
+                <p class="ju_testimonial_card__text">Lorem ipsum dolor sit amet consectetur. Sit diam dul rutrum sit.
+                  Elit purus mollis aliquam sed amet est. Libero quis nisi elementum ridiculus ultricies rhoncus
+                  scelerisque egestas sem. Tellus vel mollis at non habitasse amet enim. Mollis neque nibh placerat a in
+                  consectetur fusce.</p>
+                <div class="ju_testimonial_card__author">
+                  <img src="image/google-map/avatar-ethan.png" alt="Ethan Garcia" class="ju_testimonial_card__avatar" />
+                  <div>
+                    <h4 class="ju_testimonial_card__name">Ethan Garcia</h4>
+                    <p class="ju_testimonial_card__role">CEO FPT</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class=" uk-width-1-1 uk-width-4-5@s">
+              <div class="ju_testimonial_card">
+                <div class="ju_testimonial_card__stars">
+                  <div style="color:#FFB800">★ ★ ★ ★ ★</div>
+                  <span uk-icon="icon: quote-right; ratio: 1.5" style="color:#0454F2"></span>
+                </div>
+                <p class="ju_testimonial_card__text">Lorem ipsum dolor sit amet consectetur. Magna in etiam vel ornare
+                  netus eget mattis. Est ac aliquam mi congue lorem. Viverra quis facilisi commodo augue diam potenti.
+                  Risus ac pharetra ullamcorper lacus dolor duis.</p>
+                <div class="ju_testimonial_card__author">
+                  <img src="image/google-map/avatar-mia.png" alt="Mia Hernandez" class="ju_testimonial_card__avatar" />
+                  <div>
+                    <h4 class="ju_testimonial_card__name">Mia Hernandez</h4>
+                    <p class="ju_testimonial_card__role">CEO FPT</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-top"></ul>
         </div>
       </div>
-      <div class="ju_testimonial__cards">
-        <div class="ju_testimonial_card">
-          <div class="ju_testimonial_card__stars">
-            <div>★ ★ ★ ★ ★</div>
-            <span uk-icon="icon: quote-right; ratio: 1.5" style="color:#0454F2"></span>
-          </div>
-          <p class="ju_testimonial_card__text">Lorem ipsum dolor sit amet consectetur. Magna in etiam vel ornare netus
-            eget mattis. Est ac aliquam mi congue lorem. Viverra quis facilisi commodo augue diam potenti.</p>
-          <div class="ju_testimonial_card__author">
-            <img src="image/google-map/avatar-ethan.png" alt="Ethan Garcia" class="ju_testimonial_card__avatar" />
-            <div>
-              <h4 class="ju_testimonial_card__name">Ethan Garcia</h4>
-              <p class="ju_testimonial_card__role">CEO FPT</p>
-            </div>
-          </div>
-        </div>
-        <div class="ju_testimonial_card">
-          <div class="ju_testimonial_card__stars">
-            <div>★ ★ ★ ★ ★</div>
-            <span uk-icon="icon: quote-right; ratio: 1.5" style="color:#0454F2"></span>
-          </div>
-          <p class="ju_testimonial_card__text">Lorem ipsum dolor sit amet consectetur. Magna in etiam vel ornare netus
-            eget mattis. Est ac aliquam mi congue lorem. Viverra quis facilisi commodo augue diam potenti.</p>
-          <div class="ju_testimonial_card__author">
-            <img src="image/google-map/avatar-mia.png" alt="Mia Hernandez" class="ju_testimonial_card__avatar" />
-            <div>
-              <h4 class="ju_testimonial_card__name">Mia Hernandez</h4>
-              <p class="ju_testimonial_card__role">CEO FPT</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="ju_dots">
-      <div class="ju_dot ju_dot--active"></div>
-      <div class="ju_dot"></div>
-      <div class="ju_dot"></div>
     </div>
   </section>
 
