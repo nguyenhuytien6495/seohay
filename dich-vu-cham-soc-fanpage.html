@@ -26,8 +26,7 @@
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=629121412487486&ev=PageView&noscript=1" /></noscript>
   <meta property="og:title" content="Dịch Vụ Chăm Sóc Fanpage Chuyên Nghiệp | Marketing BUFF" />
-  <meta property="og:description"
-    content="Vận hành Fanpage như một kênh bán hàng & xây dựng thương hiệu thực thụ." />
+  <meta property="og:description" content="Vận hành Fanpage như một kênh bán hàng & xây dựng thương hiệu thực thụ." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://seohay.vn/uploads/1.png" />
   <meta property="og:url" content="https://seohay.vn/dich-vu-cham-soc-fanpage.html" />
@@ -55,36 +54,21 @@
     /* ===== HERO ===== */
     .ju_fp_hero {
       background: #f3f3f8;
-      padding: 120px 0 0;
+      padding: 40px 0 0;
     }
 
     .ju_fp_hero__card {
       background: linear-gradient(135deg, #CFD9F0 0%, #D6DFF5 50%, #E0E8FA 100%);
       border-radius: 48px;
       padding: 60px;
-      display: flex;
-      gap: 40px;
-      align-items: flex-end;
       position: relative;
       overflow: hidden;
-      min-height: 520px;
+      min-height: 560px;
     }
 
     .ju_fp_hero__left {
-      flex: 1;
       position: relative;
       z-index: 2;
-      padding-bottom: 40px;
-    }
-
-    .ju_fp_hero__right {
-      width: 50%;
-      min-width: 420px;
-      position: relative;
-      z-index: 1;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
     }
 
     .ju_fp_hero__badge {
@@ -115,7 +99,6 @@
     .ju_fp_hero__subtitle {
       font-size: 18px;
       font-weight: 400;
-      font-style: italic;
       color: #333;
       line-height: 1.6;
       max-width: 460px;
@@ -141,132 +124,17 @@
       color: #fff;
     }
 
-    /* Arch portal behind image */
-    .ju_fp_hero__arch {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 380px;
-      height: 460px;
-      border-radius: 190px 190px 0 0;
-      background: linear-gradient(180deg, rgba(4, 84, 242, 0.15) 0%, rgba(4, 84, 242, 0.08) 100%);
-      border: 3px solid rgba(4, 84, 242, 0.2);
-      border-bottom: none;
-      z-index: 0;
-    }
-
-    .ju_fp_hero__arch_inner {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 320px;
-      height: 400px;
-      border-radius: 160px 160px 0 0;
-      background: linear-gradient(180deg, rgba(4, 84, 242, 0.08) 0%, rgba(4, 84, 242, 0.02) 100%);
-      border: 3px solid rgba(4, 84, 242, 0.15);
-      border-bottom: none;
-    }
-
+    /* Absolute image on desktop */
     .ju_fp_hero__img {
-      position: relative;
-      z-index: 2;
-      max-width: 380px;
-      width: 100%;
-      display: block;
-    }
-
-    /* Deco elements */
-    .ju_fp_hero__deco_icon {
       position: absolute;
-      z-index: 3;
-      opacity: 0.85;
-    }
-
-    .ju_fp_hero__deco_icon--chat {
-      top: 40px;
-      right: 30px;
-      width: 48px;
-      height: 48px;
-      background: #7B9CDB;
-      border-radius: 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-    }
-
-    .ju_fp_hero__deco_icon--bulb {
-      top: 20px;
-      right: -10px;
-      width: 44px;
-      height: 44px;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    /* Service label + avatars */
-    .ju_fp_hero__service {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-top: 40px;
-      position: relative;
-      z-index: 2;
-    }
-
-    .ju_fp_hero__service_label {
-      font-size: 14px;
-      font-weight: 500;
-      color: #555;
-      font-style: italic;
-    }
-
-    .ju_fp_hero__avatars {
-      display: flex;
-      align-items: center;
-    }
-
-    .ju_fp_hero__avatar {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      object-fit: cover;
-      margin-left: -10px;
-    }
-
-    .ju_fp_hero__avatar:first-child {
-      margin-left: 0;
-    }
-
-    .ju_fp_hero__avatar_more {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      background: #0454F2;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      font-weight: 600;
-      margin-left: -10px;
-    }
-
-    /* Arrow deco */
-    .ju_fp_hero__arrow_deco {
-      position: relative;
-      z-index: 2;
-      margin-top: 24px;
-      display: flex;
-      align-items: flex-end;
-      gap: 16px;
+      bottom: 0;
+      right: 40px;
+      width: 46%;
+      max-width: 560px;
+      height: auto;
+      display: block;
+      z-index: 1;
+      pointer-events: none;
     }
 
     /* ===== SECTION TAG (shared) ===== */
@@ -277,7 +145,6 @@
       font-size: 18px;
       font-weight: 500;
       color: #0454F2;
-      margin-bottom: 8px;
     }
 
     .ju_section_tag__diamond {
@@ -307,78 +174,197 @@
     .ju_fp_problems {
       padding: 100px 0;
       background: #f3f3f8;
-      text-align: center;
+      overflow: hidden;
+    }
+
+    .ju_fp_problems__left {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
     }
 
     .ju_fp_problems__header {
-      max-width: 798px;
-      margin: 0 auto 54px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .ju_fp_problems__title {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.19;
+      letter-spacing: -0.005em;
+      color: #000;
+      margin: 0;
+    }
+
+    .ju_fp_problems__title span {
+      color: #0454F2;
+    }
+
+    .ju_fp_problems__btn {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #0454F2;
+      color: #fff;
+      border-radius: 100px;
+      padding: 12px 30px 12px 32px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .ju_fp_problems__btn:hover {
+      background: #0340c0;
+      color: #fff;
+    }
+
+    /* Layout grid for problems section */
+    .ju_fp_problems__grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .ju_fp_problems__col_right {
+      min-width: 0;
+    }
+
+    @media (min-width: 960px) {
+      .ju_fp_problems__grid {
+        flex-direction: row;
+        align-items: center;
+        gap: 54px;
+      }
+
+      .ju_fp_problems__col_left {
+        flex: 0 0 40%;
+      }
+
+      .ju_fp_problems__col_right {
+        flex: 1 1 auto;
+        /* Extend right column to viewport edge, capped at 1920px total layout width */
+        margin-right: calc(-1 * max(0px, min((100vw - 1200px) / 2, 360px)));
+      }
+    }
+
+    /* Slider right side */
+    .ju_fp_problem_slider {
+      position: relative;
+    }
+
+    /* Mobile (<640px): each slide = 65% */
+    .ju_fp_problem_slider .uk-slider-items>li {
+      padding-right: 12px;
+      width: 80%;
+    }
+
+    /* 640px+: each slide = 40% */
+    @media (min-width: 640px) {
+      .ju_fp_problem_slider .uk-slider-items>li {
+        padding-right: 24px;
+        width: 40%;
+      }
     }
 
     .ju_fp_problem_card {
-      border-radius: 30px;
-      background: linear-gradient(153deg, rgba(4, 84, 242, 0.24) 0%, rgba(4, 84, 242, 0) 100%);
+      position: relative;
+      height: 303px;
+      border-radius: 16px;
       overflow: hidden;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
+      display: block;
     }
 
-    .ju_fp_problem_card__content {
-      padding: 30px 30px 24px;
-      text-align: left;
+    .ju_fp_problem_card__img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .ju_fp_problem_card__overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 40px 16px 16px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
     }
 
     .ju_fp_problem_card__title {
       font-size: 20px;
-      font-weight: 600;
-      color: #0454F2;
-      margin: 0 0 16px;
-    }
-
-    .ju_fp_problem_card__desc {
-      font-size: 18px;
-      font-weight: 400;
-      color: #212121;
-      line-height: 1.56;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #fff;
       margin: 0;
-    }
-
-    .ju_fp_problem_card__illustration {
-      margin-top: auto;
-      border-radius: 24px 24px 0 0;
-      padding: 0 30px;
-      box-sizing: border-box;
-      overflow: hidden;
-    }
-
-    .ju_fp_problem_card__illustration img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      object-position: top left;
-      display: block;
     }
 
     /* ===== SOLUTIONS ===== */
     .ju_fp_solutions {
       padding: 0 0 100px;
       background: #f3f3f8;
-      text-align: center;
     }
 
     .ju_fp_solutions__header {
-      max-width: 850px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      max-width: 698px;
       margin: 0 auto 48px;
+      text-align: center;
+    }
+
+    .ju_fp_solutions__subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      color: #676666;
+      line-height: 1.5;
+      margin: 0;
+      max-width: 520px;
+    }
+
+    .ju_fp_solutions__title {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.19;
+      letter-spacing: -0.005em;
+      color: #212121;
+      margin: 0;
+    }
+
+    .ju_fp_solutions__title span {
+      color: #0454F2;
+    }
+
+    /* Override uk-grid gap to 24px for solutions cards */
+    .ju_fp_solutions [uk-grid] {
+      margin-left: -24px;
+    }
+
+    .ju_fp_solutions [uk-grid]>* {
+      padding-left: 24px;
+    }
+
+    .ju_fp_solutions [uk-grid]>.uk-grid-margin {
+      margin-top: 24px;
     }
 
     .ju_fp_solution_card {
       background: #fff;
       border-radius: 24px;
-      padding: 32px;
+      padding: 24px 16px;
       height: 100%;
-      text-align: left;
-      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -387,31 +373,62 @@
       box-shadow: 0 8px 32px rgba(4, 84, 242, 0.12);
     }
 
-    .ju_fp_solution_card__icon {
-      width: 72px;
-      height: 72px;
-      background: #EBF2FE;
-      border-radius: 16px;
+    .ju_fp_solution_card__illust {
+      padding: 13px 40px;
       display: flex;
-      align-items: center;
       justify-content: center;
-      color: #0454F2;
-      margin-bottom: 24px;
+      align-items: center;
+    }
+
+    .ju_fp_solution_card__illust img {
+      width: 100%;
+      max-width: 240px;
+      height: auto;
+      display: block;
+    }
+
+    .ju_fp_solution_card__body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
 
     .ju_fp_solution_card__title {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 600;
-      color: #0454F2;
-      margin: 0 0 12px;
+      color: #000;
+      text-align: center;
+      line-height: 1.5;
+      margin: 0;
     }
 
-    .ju_fp_solution_card__desc {
-      font-size: 16px;
-      font-weight: 400;
-      color: #676666;
-      line-height: 1.56;
+    .ju_fp_solution_card__list {
+      list-style: none;
+      padding: 0;
       margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .ju_fp_solution_card__list li {
+      position: relative;
+      padding-left: 18px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #212121;
+      line-height: 1.5;
+    }
+
+    .ju_fp_solution_card__list li::before {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 4px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #212121;
     }
 
     /* ===== BENEFITS ===== */
@@ -421,144 +438,578 @@
     }
 
     .ju_fp_benefits__img {
-      border-radius: 24px;
       width: 100%;
-      max-width: 595px;
-      object-fit: cover;
+      max-width: 588px;
+      height: auto;
+      display: block;
+      object-fit: contain;
     }
 
-    .ju_fp_checklist {
+    .ju_fp_benefits__content {
       display: flex;
       flex-direction: column;
-      gap: 24px;
-      text-align: left;
+      gap: 32px;
     }
 
-    .ju_fp_checklist__item {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-    }
-
-    .ju_fp_checklist__icon {
-      width: 16px;
-      height: 16px;
-      flex-shrink: 0;
-      margin-top: 4px;
-    }
-
-    .ju_fp_checklist__text {
+    .ju_fp_benefits__header {
       display: flex;
       flex-direction: column;
+      gap: 8px;
     }
 
-    .ju_fp_checklist__title {
-      font-size: 20px;
+    .ju_fp_benefits__title {
+      font-size: 42px;
       font-weight: 600;
-      color: #212121;
+      line-height: 1.19;
+      letter-spacing: -0.005em;
+      color: #000;
       margin: 0;
     }
 
-    .ju_fp_checklist__desc {
-      font-size: 16px;
+    .ju_fp_benefits__title span {
+      color: #0454F2;
+    }
+
+    .ju_fp_benefits__body {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .ju_fp_benefits__subtitle {
+      font-size: 18px;
       font-weight: 400;
-      color: #676666;
-      line-height: 1.56;
-      margin: 4px 0 0;
+      color: #000;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    .ju_fp_benefits__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .ju_fp_benefits__item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 8px;
+      border: 1px solid rgba(4, 84, 242, 0.16);
+      border-radius: 10px;
+      min-height: 70px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+
+    .ju_fp_benefits__check {
+      width: 48px;
+      height: 32px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: rgba(50, 210, 93, 0.16);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #32D25D;
+    }
+
+    .ju_fp_benefits__text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.55;
+      color: #100A08;
     }
 
     /* ===== DIFFERENTIATION ===== */
     .ju_fp_diff {
       padding: 0 0 100px;
       background: #f3f3f8;
-      text-align: center;
     }
 
     .ju_fp_diff__header {
-      max-width: 850px;
-      margin: 0 auto 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      max-width: 750px;
+      margin: 0 auto 54px;
+      text-align: center;
     }
 
+    .ju_fp_diff__title {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.19;
+      letter-spacing: -0.005em;
+      color: #212121;
+      margin: 0;
+    }
+
+    .ju_fp_diff__title span {
+      color: #0454F2;
+    }
+
+    /* Grid: 4 cols × 2 rows; 100% & dark cards span 2 cols (diagonal) */
+    .ju_fp_diff__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 306px;
+      gap: 24px;
+    }
+
+    .ju_fp_diff__cell--100 {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+    }
+
+    .ju_fp_diff__cell--design {
+      grid-column: 3 / span 2;
+      grid-row: 2;
+    }
+
+    /* Highlight 100% card */
     .ju_fp_diff__highlight {
-      background: #0454F2;
-      border-radius: 30px;
-      padding: 48px 40px;
-      color: #fff;
-      text-align: left;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .ju_fp_diff__highlight_bg {
-      position: absolute;
-      inset: 0;
-      background: url("image/google-map/testimonial-bg-tile.png") repeat;
-      opacity: 0.15;
-      pointer-events: none;
-    }
-
-    .ju_fp_diff__highlight_inner {
-      position: relative;
-      z-index: 1;
+      background: #EAF0FF;
+      border-radius: 16px;
+      padding: 32px;
+      height: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
 
     .ju_fp_diff__highlight_number {
-      font-size: 72px;
+      font-size: 85px;
       font-weight: 700;
-      color: #fff;
+      color: #05173D;
       line-height: 1;
-      margin-bottom: 16px;
-    }
-
-    .ju_fp_diff__highlight_title {
-      font-size: 24px;
-      font-weight: 600;
-      color: #fff;
-      margin: 0 0 12px;
+      margin: 0;
     }
 
     .ju_fp_diff__highlight_desc {
       font-size: 16px;
       font-weight: 400;
-      color: rgba(255, 255, 255, 0.8);
-      line-height: 1.56;
+      color: #3D4A66;
+      line-height: 1.625;
       margin: 0;
     }
 
+    .ju_fp_diff__highlight_btn {
+      align-self: flex-start;
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #0454F2;
+      color: #fff;
+      border-radius: 100px;
+      padding: 12px 30px 12px 32px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .ju_fp_diff__highlight_btn:hover {
+      background: #0340c0;
+      color: #fff;
+    }
+
+    /* Regular white card */
     .ju_fp_diff_card {
       background: #fff;
-      border-radius: 24px;
-      padding: 32px;
-      text-align: left;
+      border-radius: 16px;
+      padding: 32px 24px;
       height: 100%;
-      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
     }
 
     .ju_fp_diff_card__icon {
-      width: 56px;
-      height: 56px;
-      background: #EBF2FE;
-      border-radius: 14px;
+      width: 64px;
+      height: 64px;
+      background: #0454F2;
+      border-radius: 80px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #0454F2;
-      margin-bottom: 20px;
+      color: #fff;
+      flex-shrink: 0;
     }
 
     .ju_fp_diff_card__title {
-      font-size: 20px;
+      font-size: 28px;
       font-weight: 600;
       color: #212121;
-      margin: 0 0 8px;
+      line-height: 1.4;
+      margin: 0;
     }
 
-    .ju_fp_diff_card__desc {
+    /* Dark "Được thiết kế" image card */
+    .ju_fp_diff__design {
+      position: relative;
+      height: 100%;
+      box-sizing: border-box;
+      border-radius: 16px;
+      overflow: hidden;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 16px;
+      background: url("image/fanpage/diff-design-bg-5b07c8.png") no-repeat center / cover;
+      color: #fff;
+    }
+
+    .ju_fp_diff__design::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%);
+      pointer-events: none;
+    }
+
+    .ju_fp_diff__design>* {
+      position: relative;
+      z-index: 1;
+    }
+
+    .ju_fp_diff__design_title {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: #fff;
+      margin: 0;
+    }
+
+    .ju_fp_diff__design_desc {
       font-size: 16px;
       font-weight: 400;
-      color: #676666;
-      line-height: 1.56;
+      color: #fff;
+      line-height: 1.5;
       margin: 0;
+      max-width: 360px;
+    }
+
+    .ju_fp_diff__design_btn {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 2px;
+      line-height: 1.2;
+    }
+
+    .ju_fp_diff__design_btn:hover {
+      color: #fff;
+      opacity: 0.85;
+    }
+
+    /* ===== CASE STUDIES ===== */
+    .ju_fp_cases {
+      padding: 0 0 100px;
+      background: #f3f3f8;
+    }
+
+    .ju_fp_cases__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin: 0 auto 54px;
+      text-align: center;
+    }
+
+    .ju_fp_cases__title {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.19;
+      letter-spacing: -0.005em;
+      color: #000;
+      max-width: 678px;
+      margin: 0;
+    }
+
+    .ju_fp_cases__title span {
+      color: #0454F2;
+    }
+
+    .ju_fp_cases__subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000;
+      line-height: 1.55;
+      max-width: 882px;
+      margin: 0;
+    }
+
+    /* Override uk-grid gap to 24px */
+    .ju_fp_cases [uk-grid] {
+      margin-left: -24px;
+    }
+
+    .ju_fp_cases [uk-grid]>* {
+      padding-left: 24px;
+    }
+
+    .ju_fp_cases [uk-grid]>.uk-grid-margin {
+      margin-top: 24px;
+    }
+
+    .ju_fp_case_card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px 16px;
+      height: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .ju_fp_case_card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(4, 84, 242, 0.12);
+    }
+
+    .ju_fp_case_card__top {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .ju_fp_case_card__tag {
+      align-self: flex-start;
+      background: #0454F2;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 30px;
+      border-radius: 16px 16px 0 0;
+    }
+
+    .ju_fp_case_card__title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #212121;
+      line-height: 1.5;
+      margin: 0;
+      min-height: 60px;
+    }
+
+    .ju_fp_case_card__thumb {
+      border-radius: 16px;
+      overflow: hidden;
+      aspect-ratio: 352 / 151;
+      background: #EBF2FE;
+    }
+
+    .ju_fp_case_card__thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+    .ju_fp_testimonial {
+      padding: 0 0 100px;
+      background: #f3f3f8;
+    }
+
+    .ju_fp_testimonial__header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 588px;
+      margin-bottom: 54px;
+    }
+
+    .ju_fp_testimonial__title {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.19;
+      letter-spacing: -0.005em;
+      color: #000;
+      margin: 0;
+    }
+
+    .ju_fp_testimonial__title span {
+      color: #0454F2;
+    }
+
+    .ju_fp_testimonial__subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    .ju_fp_testimonial__slider {
+      position: relative;
+    }
+
+    .ju_fp_testimonial__slider .uk-slider-items {
+      margin-left: -24px;
+    }
+
+    .ju_fp_testimonial__slider .uk-slider-items>li {
+      padding-left: 24px;
+    }
+
+    .ju_fp_testimonial_card {
+      background: #fff;
+      border: 1px solid rgba(4, 84, 242, 0.16);
+      border-radius: 16px;
+      padding: 20px;
+      height: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .ju_fp_testimonial_card__stars {
+      display: flex;
+      gap: 4px;
+      color: #FF7C16;
+    }
+
+    .ju_fp_testimonial_card__quote {
+      font-size: 18px;
+      font-weight: 400;
+      color: #212121;
+      line-height: 1.55;
+      margin: 0;
+      flex: 1;
+    }
+
+    .ju_fp_testimonial_card__author {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(4, 84, 242, 0.16);
+    }
+
+    .ju_fp_testimonial_card__avatar {
+      width: 41px;
+      height: 41px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .ju_fp_testimonial_card__name {
+      font-size: 18px;
+      font-weight: 600;
+      color: #0454F2;
+      margin: 0;
+    }
+
+    .ju_fp_testimonial_card__role {
+      font-size: 14px;
+      font-weight: 500;
+      color: #676666;
+      margin: 4px 0 0;
+    }
+
+    /* Override dot nav for testimonial */
+    .ju_fp_testimonial__slider .uk-dotnav {
+      justify-content: center;
+      margin-top: 24px;
+      gap: 8px;
+    }
+
+    .ju_fp_testimonial__slider .uk-dotnav>* {
+      padding-left: 0;
+    }
+
+    .ju_fp_testimonial__slider .uk-dotnav>*>* {
+      width: 10px;
+      height: 10px;
+      border: none;
+      background: rgba(4, 84, 242, 0.3);
+    }
+
+    .ju_fp_testimonial__slider .uk-dotnav>.uk-active>* {
+      width: 14px;
+      height: 14px;
+      background: #0454F2;
+    }
+
+    /* Right side image card */
+    .ju_fp_testimonial__visual {
+      position: relative;
+      width: 100%;
+      max-width: 485px;
+      aspect-ratio: 485 / 649;
+      border-radius: 24px;
+      overflow: hidden;
+      background: url("image/fanpage/testimonial-main.png") no-repeat center / cover;
+      margin-left: auto;
+    }
+
+    .ju_fp_testimonial__rating {
+      position: absolute;
+      left: 32px;
+      bottom: 32px;
+      right: 32px;
+      padding: 24px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .ju_fp_testimonial__rating_avatars {
+      display: flex;
+      align-items: center;
+    }
+
+    .ju_fp_testimonial__rating_avatars img {
+      width: 41px;
+      height: 41px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(255, 255, 255, 0.6);
+      margin-left: -20px;
+    }
+
+    .ju_fp_testimonial__rating_avatars img:first-child {
+      margin-left: 0;
+    }
+
+    .ju_fp_testimonial__rating_stars {
+      display: flex;
+      gap: 2px;
+      color: #FF7C16;
+    }
+
+    .ju_fp_testimonial__rating_text {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+      margin: 0;
+      line-height: 1.5;
     }
 
     /* ===== PROCESS (copied from google-map) ===== */
@@ -978,8 +1429,13 @@
         font-size: 42px;
       }
 
-      .ju_fp_hero__right {
-        min-width: 340px;
+      .ju_fp_hero__left {
+        width: 52%;
+      }
+
+      .ju_fp_hero__img {
+        width: 48%;
+        right: 20px;
       }
     }
 
@@ -989,20 +1445,14 @@
       }
 
       .ju_fp_hero__card {
-        flex-direction: column;
         padding: 40px 24px 0;
-        align-items: center;
         text-align: center;
+        min-height: 0;
       }
 
       .ju_fp_hero__left {
-        padding-bottom: 24px;
-      }
-
-      .ju_fp_hero__right {
         width: 100%;
-        min-width: unset;
-        justify-content: center;
+        padding-bottom: 24px;
       }
 
       .ju_fp_hero__title {
@@ -1011,38 +1461,142 @@
 
       .ju_fp_hero__subtitle {
         max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
-      .ju_fp_hero__arrow_deco {
-        justify-content: center;
-      }
-
-      .ju_fp_hero__arch {
-        width: 280px;
-        height: 340px;
-        border-radius: 140px 140px 0 0;
-      }
-
-      .ju_fp_hero__arch_inner {
-        width: 230px;
-        height: 290px;
-        border-radius: 115px 115px 0 0;
-      }
-
+      /* Image stacks below text on mobile */
       .ju_fp_hero__img {
-        max-width: 280px;
+        position: static;
+        width: 100%;
+        max-width: 420px;
+        margin: 24px auto 0;
       }
 
       .ju_section_title {
         font-size: 32px;
       }
 
+      /* Problems mobile: stack, center text */
+      .ju_fp_problems {
+        padding: 60px 0;
+      }
+
+      .ju_fp_problems__left {
+        text-align: center;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 40px;
+      }
+
+      .ju_fp_problems__header {
+        align-items: center;
+      }
+
+      .ju_fp_problems__title {
+        font-size: 30px;
+      }
+
+      .ju_fp_problems__btn {
+        align-self: center;
+      }
+
+      .ju_fp_problem_card {
+        height: 360px;
+      }
+
+      /* Solutions mobile */
+      .ju_fp_solutions__title {
+        font-size: 28px;
+      }
+
+      /* Benefits mobile */
+      .ju_fp_benefits__title {
+        font-size: 28px;
+      }
+
+      .ju_fp_benefits__grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .ju_fp_benefits__img {
+        margin: 24px auto 0;
+      }
+
+      /* Diff section mobile: stack 1 col */
+      .ju_fp_diff__title {
+        font-size: 28px;
+      }
+
+      .ju_fp_diff__grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        gap: 16px;
+      }
+
+      .ju_fp_diff__cell--100,
+      .ju_fp_diff__cell--design {
+        grid-column: span 1;
+        grid-row: auto;
+      }
+
       .ju_fp_diff__highlight {
-        padding: 32px 24px;
+        padding: 24px;
       }
 
       .ju_fp_diff__highlight_number {
-        font-size: 48px;
+        font-size: 64px;
+      }
+
+      .ju_fp_diff_card {
+        padding: 24px;
+      }
+
+      .ju_fp_diff_card__title {
+        font-size: 24px;
+      }
+
+      .ju_fp_diff__design_title {
+        font-size: 24px;
+      }
+
+      /* Case studies mobile */
+      .ju_fp_cases__title {
+        font-size: 28px;
+      }
+
+      .ju_fp_case_card__title {
+        font-size: 18px;
+        min-height: 0;
+      }
+
+      /* Testimonials mobile */
+      .ju_fp_testimonial__header {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 32px;
+      }
+
+      .ju_fp_testimonial__title {
+        font-size: 28px;
+      }
+
+      .ju_fp_testimonial__visual {
+        margin: 32px auto 0;
+        aspect-ratio: 4 / 5;
+      }
+
+      .ju_fp_testimonial__rating_text {
+        font-size: 18px;
+      }
+
+      .ju_fp_testimonial_card {
+        padding: 24px;
+      }
+
+      .ju_fp_case_card__body {
+        padding: 20px 20px 24px;
       }
 
       .ju_cta_banner__inner {
@@ -1161,8 +1715,8 @@
                       uk-grid="">
                       <li class="uk-first-column"><a href="https://seohay.vn/dich-vu-seo.html">Dịch vụ Seo</a></li>
                       <li><a href="#">Google Ads</a></li>
-                      <li class="uk-first-column uk-grid-margin"><a
-                          href="https://seohay.vn/thiet-ke-website.html">Thiết Kế Website</a></li>
+                      <li class="uk-first-column uk-grid-margin"><a href="https://seohay.vn/thiet-ke-website.html">Thiết
+                          Kế Website</a></li>
                       <li class="uk-grid-margin"><a href="/dao-tao-seo.html">Đào tạo seo</a></li>
                       <li class="uk-first-column uk-grid-margin"><a href="/dich-vu-viet-bai-chuan-seo.html">Dịch vụ viết
                           bài chuẩn seo</a></li>
@@ -1196,7 +1750,7 @@
   <section class="ju_fp_hero">
     <div class="uk-container">
       <div class="ju_fp_hero__card">
-        <!-- Left: Text -->
+        <!-- Text content -->
         <div class="ju_fp_hero__left">
           <span class="ju_fp_hero__badge">Buff SEO</span>
           <h1 class="ju_fp_hero__title">Dịch Vụ Chăm Sóc <span>Fanpage</span><br />Chuyên Nghiệp</h1>
@@ -1204,44 +1758,14 @@
               Fanpage như một kênh bán hàng & xây dựng thương hiệu thực thụ.</strong></p>
           <a href="contact.html" class="ju_fp_hero__btn">Nhận tư vấn <span uk-icon><svg
                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-                <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
+                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg></span></a>
-
-          <!-- Arrow deco + Avatars -->
-          <div class="ju_fp_hero__arrow_deco">
-            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="50" viewBox="0 0 60 50" fill="none">
-              <path
-                d="M8 48C7.5 42 9 30 18 22C27 14 38 12 48 16"
-                stroke="#333" stroke-width="1.5" stroke-linecap="round" fill="none" />
-              <path d="M44 12L48 16L43 19" stroke="#333" stroke-width="1.5" stroke-linecap="round"
-                stroke-linejoin="round" fill="none" />
-            </svg>
-            <div>
-              <div class="ju_fp_hero__service_label">Fanpage<br />management service</div>
-              <div class="ju_fp_hero__avatars uk-margin-small-top">
-                <img src="image/google-map/avatar-ethan.png" alt="member" class="ju_fp_hero__avatar" />
-                <img src="image/google-map/avatar-mia.png" alt="member" class="ju_fp_hero__avatar" />
-                <img src="image/google-map/avatar-ethan.png" alt="member" class="ju_fp_hero__avatar" />
-                <span class="ju_fp_hero__avatar_more">+</span>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <!-- Right: Image with arch -->
-        <div class="ju_fp_hero__right">
-          <div class="ju_fp_hero__arch">
-            <div class="ju_fp_hero__arch_inner"></div>
-          </div>
-          <!-- Deco icons -->
-          <div class="ju_fp_hero__deco_icon ju_fp_hero__deco_icon--chat">
-            <span uk-icon="icon: comment; ratio: 1.2"></span>
-          </div>
-          <img src="image/fanpage/hero-fanpage.webp" alt="Chăm sóc Fanpage chuyên nghiệp" class="ju_fp_hero__img" />
-        </div>
+        <!-- Hero image (absolute on desktop, stacked below on mobile) -->
+        <img src="image/fanpage/Image hero DVCS fanpage.png" alt="Dịch vụ chăm sóc Fanpage chuyên nghiệp"
+          class="ju_fp_hero__img" />
       </div>
     </div>
   </section>
@@ -1249,57 +1773,59 @@
   <!-- KHÓ KHĂN -->
   <section class="ju_fp_problems">
     <div class="uk-container">
-      <div class="ju_fp_problems__header">
-        <span class="ju_section_tag">
-          <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
-            <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
-          </svg>
-          Khó khăn
-        </span>
-        <h2 class="ju_section_title">Fanpage của bạn có đang rơi vào những <span style="color:#0454F2">tình trạng
-            này?</span></h2>
-        <p class="ju_section_subtitle">Nhiều doanh nghiệp đầu tư vào Fanpage nhưng không thu được kết quả xứng đáng</p>
-      </div>
-    </div>
-    <div class="uk-container uk-container-large">
-      <div uk-grid class="uk-child-width-1-1 uk-child-width-1-3@s uk-grid-match">
-        <div>
-          <div class="ju_fp_problem_card">
-            <div class="ju_fp_problem_card__content">
-              <h3 class="ju_fp_problem_card__title">Bài đăng ít tương tác, like & comment giảm dần</h3>
-              <p class="ju_fp_problem_card__desc">Nội dung đăng đều đặn nhưng mức độ tương tác ngày càng giảm, reach
-                organic giảm liên tục.</p>
+      <div class="ju_fp_problems__grid">
+        <!-- Left 2/5: label + title + CTA -->
+        <div class="ju_fp_problems__col_left">
+          <div class="ju_fp_problems__left">
+            <div class="ju_fp_problems__header">
+              <span class="ju_section_tag">
+                <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
+                </svg>
+                Vấn đề bạn đang gặp phải
+              </span>
+              <h2 class="ju_fp_problems__title">Fanpage của bạn có đang rơi vào những <span>tình trạng này?</span></h2>
             </div>
-            <div class="ju_fp_problem_card__illustration">
-              <img src="image/google-map/Google Maps không hiển thị hoặc hiển thị ở vị trí thấp.png"
-                alt="Bài đăng ít tương tác" />
-            </div>
+            <a href="contact.html" class="ju_fp_problems__btn">LIÊN HỆ NGAY <span uk-icon><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                  <path
+                    d="M13.6496 2.3499C13.6496 2.21657 13.5996 2.0999 13.4996 1.9999C13.3996 1.8999 13.2829 1.8499 13.1496 1.8499H7.54961C7.41628 1.8499 7.29961 1.8999 7.19961 1.9999C7.09961 2.0999 7.04961 2.21657 7.04961 2.3499C7.04961 2.48324 7.09961 2.59157 7.19961 2.6749C7.29961 2.75824 7.41628 2.7999 7.54961 2.7999H11.9996L2.49961 12.2999C2.39961 12.3999 2.34961 12.5166 2.34961 12.6499C2.34961 12.7832 2.39961 12.8999 2.49961 12.9999C2.59961 13.0999 2.71628 13.1499 2.84961 13.1499C2.98294 13.1499 3.09961 13.0999 3.19961 12.9999L12.6996 3.4999V7.9499C12.6996 8.08324 12.7413 8.1999 12.8246 8.2999C12.9079 8.3999 13.0163 8.4499 13.1496 8.4499C13.2829 8.4499 13.3996 8.3999 13.4996 8.2999C13.5996 8.1999 13.6496 8.08324 13.6496 7.9499V2.3499Z"
+                    fill="white" />
+                </svg></span></a>
           </div>
         </div>
-        <div>
-          <div class="ju_fp_problem_card">
-            <div class="ju_fp_problem_card__content">
-              <h3 class="ju_fp_problem_card__title">Page có người nhắn nhưng không chốt được đơn</h3>
-              <p class="ju_fp_problem_card__desc">Khách hàng inbox hỏi thăm nhưng quy trình tư vấn, chốt sale không
-                hiệu quả, để tuột mất lead.</p>
-            </div>
-            <div class="ju_fp_problem_card__illustration">
-              <img src="image/google-map/Google Maps không hiển thị hoặc hiển thị ở vị trí thấp.png"
-                alt="Không chốt được đơn" />
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="ju_fp_problem_card">
-            <div class="ju_fp_problem_card__content">
-              <h3 class="ju_fp_problem_card__title">Nội dung đăng đều nhưng không ra khách</h3>
-              <p class="ju_fp_problem_card__desc">Bài viết không có chiến lược, không hướng đến đúng đối tượng khách
-                hàng mục tiêu.</p>
-            </div>
-            <div class="ju_fp_problem_card__illustration">
-              <img src="image/google-map/Google Maps không hiển thị hoặc hiển thị ở vị trí thấp.png"
-                alt="Nội dung không ra khách" />
-            </div>
+        <!-- Right: slider (extends to the right edge, capped at 1920px viewport) -->
+        <div class="ju_fp_problems__col_right">
+          <div class="ju_fp_problem_slider" uk-slider="finite: false">
+            <ul class="uk-slider-items">
+              <li>
+                <div class="ju_fp_problem_card">
+                  <img src="image/fanpage/problem-card-1.png" alt="Bài đăng ít tương tác"
+                    class="ju_fp_problem_card__img" />
+                  <div class="ju_fp_problem_card__overlay">
+                    <h3 class="ju_fp_problem_card__title">Bài đăng ít tương tác, like &amp; comment giảm dần</h3>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ju_fp_problem_card">
+                  <img src="image/fanpage/problem-card-2.png" alt="Không chốt được đơn"
+                    class="ju_fp_problem_card__img" />
+                  <div class="ju_fp_problem_card__overlay">
+                    <h3 class="ju_fp_problem_card__title">Page có người nhắn nhưng không chốt được đơn</h3>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ju_fp_problem_card">
+                  <img src="image/fanpage/problem-card-3.png" alt="Nội dung không ra khách"
+                    class="ju_fp_problem_card__img" />
+                  <div class="ju_fp_problem_card__overlay">
+                    <h3 class="ju_fp_problem_card__title">Nội dung đăng đều nhưng không ra khách</h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -1314,41 +1840,54 @@
           <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
             <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
           </svg>
-          Giải pháp
+          SOLUTION
         </span>
-        <h2 class="ju_section_title">Chúng tôi chăm sóc Fanpage theo hướng <span style="color:#0454F2">Marketing</span>
-          – không phải đăng bài cho có</h2>
-        <p class="ju_section_subtitle">Mỗi bài viết, mỗi tương tác đều nằm trong chiến lược tổng thể.</p>
+        <h2 class="ju_fp_solutions__title">Chúng tôi chăm sóc <span>Fanpage</span> theo hướng Marketing – không phải
+          đăng bài cho có</h2>
       </div>
       <div uk-grid class="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match">
         <div>
           <div class="ju_fp_solution_card">
-            <div class="ju_fp_solution_card__icon">
-              <span uk-icon="icon: file-text; ratio: 1.5"></span>
+            <div class="ju_fp_solution_card__illust">
+              <img src="image/fanpage/solution-chart-462d1f.png" alt="Chiến lược nội dung bài bản" />
             </div>
-            <h3 class="ju_fp_solution_card__title">Chiến lược nội dung bài bản</h3>
-            <p class="ju_fp_solution_card__desc">Xây dựng content plan theo tháng, đa dạng loại bài viết từ
-              giáo dục, bán hàng đến tương tác cộng đồng.</p>
+            <div class="ju_fp_solution_card__body">
+              <h3 class="ju_fp_solution_card__title">Chiến lược nội dung bài bản</h3>
+              <ul class="ju_fp_solution_card__list">
+                <li>Xây dựng content plan theo tháng, đa dạng loại bài viết từ giáo dục, bán hàng đến tương tác cộng
+                  đồng.</li>
+                <li>Mỗi chủ đề đều có mục tiêu marketing rõ ràng, bám sát hành vi khách hàng mục tiêu.</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div>
           <div class="ju_fp_solution_card">
-            <div class="ju_fp_solution_card__icon">
-              <span uk-icon="icon: users; ratio: 1.5"></span>
+            <div class="ju_fp_solution_card__illust">
+              <img src="image/fanpage/solution-shield-462d1f.png" alt="Vận hành & tương tác chuyên nghiệp" />
             </div>
-            <h3 class="ju_fp_solution_card__title">Vận hành & tương tác chuyên nghiệp</h3>
-            <p class="ju_fp_solution_card__desc">Đội ngũ trả lời inbox, comment nhanh chóng, giữ chân khách hàng
-              và tăng tỷ lệ chuyển đổi.</p>
+            <div class="ju_fp_solution_card__body">
+              <h3 class="ju_fp_solution_card__title">Vận hành &amp; tương tác chuyên nghiệp</h3>
+              <ul class="ju_fp_solution_card__list">
+                <li>Đội ngũ trả lời inbox, comment nhanh chóng, giữ chân khách hàng và tăng tỷ lệ chuyển đổi.</li>
+                <li>Vận hành Fanpage an toàn, tuân thủ chính sách Facebook, tránh rủi ro mất reach.</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div>
           <div class="ju_fp_solution_card">
-            <div class="ju_fp_solution_card__icon">
-              <span uk-icon="icon: paint-bucket; ratio: 1.5"></span>
+            <div class="ju_fp_solution_card__illust">
+              <img src="image/fanpage/solution-chart-462d1f.png" alt="Triển khai backlink an toàn" />
             </div>
-            <h3 class="ju_fp_solution_card__title">Thiết kế hình ảnh chuyên nghiệp</h3>
-            <p class="ju_fp_solution_card__desc">Hình ảnh, video được thiết kế theo bộ nhận diện thương hiệu,
-              tạo ấn tượng nhất quán và chuyên nghiệp.</p>
+            <div class="ju_fp_solution_card__body">
+              <h3 class="ju_fp_solution_card__title">Triển khai backlink an toàn</h3>
+              <ul class="ju_fp_solution_card__list">
+                <li>Kết hợp hệ thống backlink Fanpage an toàn, tăng độ uy tín và khả năng tiếp cận khách hàng tự
+                  nhiên.</li>
+                <li>Lộ trình tăng trưởng bền vững, không spam, bám sát thuật toán mới nhất của Facebook.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -1359,214 +1898,84 @@
   <section class="ju_fp_benefits">
     <div class="uk-container">
       <div class="uk-flex-middle" uk-grid>
-        <div class="uk-width-1-1 uk-width-1-2@m">
-          <span class="ju_section_tag">
-            <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
-            </svg>
-            Bạn nhận được gì
-          </span>
-          <h2 class="ju_section_title" style="text-align:left">Bạn nhận được gì từ <span style="color:#0454F2">dịch vụ
-              của chúng tôi</span></h2>
-          <div class="ju_fp_checklist uk-margin-top">
-            <div class="ju_fp_checklist__item">
-              <svg class="ju_fp_checklist__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
-                  fill="url(#fp_grad1)" />
-                <defs>
-                  <linearGradient id="fp_grad1" x1="0" y1="8" x2="16" y2="8" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#B1CBFF" />
-                    <stop offset="1" stop-color="#0554F2" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div class="ju_fp_checklist__text">
-                <h4 class="ju_fp_checklist__title">Xây dựng kế hoạch nội dung theo tháng</h4>
-                <p class="ju_fp_checklist__desc">Content plan bài bản, phù hợp ngành hàng và thời điểm.</p>
-              </div>
+        <!-- Text + items (first on mobile, last on desktop) -->
+        <div class="uk-width-1-1 uk-width-1-2@m uk-flex-last@m">
+          <div class="ju_fp_benefits__content">
+            <div class="ju_fp_benefits__header">
+              <span class="ju_section_tag">
+                <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
+                </svg>
+                Dịch vụ bao gồm
+              </span>
+              <h2 class="ju_fp_benefits__title">Bạn nhận được gì từ <span>dịch vụ của chúng tôi</span></h2>
             </div>
-            <div class="ju_fp_checklist__item">
-              <svg class="ju_fp_checklist__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
-                  fill="url(#fp_grad2)" />
-                <defs>
-                  <linearGradient id="fp_grad2" x1="0" y1="8" x2="16" y2="8" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#B1CBFF" />
-                    <stop offset="1" stop-color="#0554F2" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div class="ju_fp_checklist__text">
-                <h4 class="ju_fp_checklist__title">Sáng tạo nội dung bài viết</h4>
-                <p class="ju_fp_checklist__desc">Bài viết hấp dẫn, đúng tone & voice thương hiệu.</p>
-              </div>
-            </div>
-            <div class="ju_fp_checklist__item">
-              <svg class="ju_fp_checklist__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
-                  fill="url(#fp_grad3)" />
-                <defs>
-                  <linearGradient id="fp_grad3" x1="0" y1="8" x2="16" y2="8" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#B1CBFF" />
-                    <stop offset="1" stop-color="#0554F2" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div class="ju_fp_checklist__text">
-                <h4 class="ju_fp_checklist__title">Thiết kế hình ảnh theo nhận diện thương hiệu</h4>
-                <p class="ju_fp_checklist__desc">Mỗi hình ảnh đều được thiết kế chuyên nghiệp, đồng bộ.</p>
-              </div>
-            </div>
-            <div class="ju_fp_checklist__item">
-              <svg class="ju_fp_checklist__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
-                  fill="url(#fp_grad4)" />
-                <defs>
-                  <linearGradient id="fp_grad4" x1="0" y1="8" x2="16" y2="8" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#B1CBFF" />
-                    <stop offset="1" stop-color="#0554F2" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div class="ju_fp_checklist__text">
-                <h4 class="ju_fp_checklist__title">Đăng bài & quản lý lịch đăng</h4>
-                <p class="ju_fp_checklist__desc">Lên lịch đăng bài tối ưu thời gian, tần suất hợp lý.</p>
-              </div>
-            </div>
-            <div class="ju_fp_checklist__item">
-              <svg class="ju_fp_checklist__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
-                  fill="url(#fp_grad5)" />
-                <defs>
-                  <linearGradient id="fp_grad5" x1="0" y1="8" x2="16" y2="8" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#B1CBFF" />
-                    <stop offset="1" stop-color="#0554F2" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div class="ju_fp_checklist__text">
-                <h4 class="ju_fp_checklist__title">Trả lời inbox & comment</h4>
-                <p class="ju_fp_checklist__desc">Phản hồi nhanh, chuyên nghiệp, giữ chân khách hàng.</p>
-              </div>
-            </div>
-            <div class="ju_fp_checklist__item">
-              <svg class="ju_fp_checklist__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
-                  fill="url(#fp_grad6)" />
-                <defs>
-                  <linearGradient id="fp_grad6" x1="0" y1="8" x2="16" y2="8" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#B1CBFF" />
-                    <stop offset="1" stop-color="#0554F2" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div class="ju_fp_checklist__text">
-                <h4 class="ju_fp_checklist__title">Theo dõi & báo cáo hiệu quả Fanpage</h4>
-                <p class="ju_fp_checklist__desc">Báo cáo chi tiết hàng tháng, phân tích và đề xuất cải thiện.</p>
+            <div class="ju_fp_benefits__body">
+              <p class="ju_fp_benefits__subtitle">Khách hàng đánh giá doanh nghiệp thông qua website trước cả khi liên
+                hệ.</p>
+              <div class="ju_fp_benefits__grid">
+                <div class="ju_fp_benefits__item">
+                  <span class="ju_fp_benefits__check">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 9.5L7.5 15L18 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span class="ju_fp_benefits__text">Xây dựng kế hoạch nội dung theo tháng</span>
+                </div>
+                <div class="ju_fp_benefits__item">
+                  <span class="ju_fp_benefits__check">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 9.5L7.5 15L18 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span class="ju_fp_benefits__text">Sáng tạo nội dung bài viết</span>
+                </div>
+                <div class="ju_fp_benefits__item">
+                  <span class="ju_fp_benefits__check">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 9.5L7.5 15L18 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span class="ju_fp_benefits__text">Thiết kế hình ảnh theo nhận diện thương hiệu</span>
+                </div>
+                <div class="ju_fp_benefits__item">
+                  <span class="ju_fp_benefits__check">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 9.5L7.5 15L18 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span class="ju_fp_benefits__text">Đăng bài &amp; quản lý lịch đăng</span>
+                </div>
+                <div class="ju_fp_benefits__item">
+                  <span class="ju_fp_benefits__check">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 9.5L7.5 15L18 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span class="ju_fp_benefits__text">Trả lời inbox &amp; comment</span>
+                </div>
+                <div class="ju_fp_benefits__item">
+                  <span class="ju_fp_benefits__check">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 9.5L7.5 15L18 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span class="ju_fp_benefits__text">Theo dõi &amp; báo cáo hiệu quả Fanpage</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="uk-width-1-1 uk-width-1-2@m">
-          <img src="image/google-map/importance-illustration.png" alt="Dịch vụ chăm sóc fanpage"
+        <!-- Illustration (last on mobile, first on desktop) -->
+        <div class="uk-width-1-1 uk-width-1-2@m uk-flex-first@m uk-text-center uk-text-left@m">
+          <img src="image/fanpage/benefits-illust.png" alt="Bạn nhận được gì từ dịch vụ chăm sóc Fanpage"
             class="ju_fp_benefits__img" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ĐIỂM KHÁC BIỆT -->
-  <section class="ju_fp_diff">
-    <div class="uk-container">
-      <div class="ju_fp_diff__header">
-        <span class="ju_section_tag">
-          <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
-            <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
-          </svg>
-          Điểm khác biệt
-        </span>
-        <h2 class="ju_section_title">Điểm khác biệt của dịch vụ chăm sóc <span style="color:#0454F2">Fanpage</span>
-          của chúng tôi</h2>
-      </div>
-
-      <div uk-grid class="uk-grid-match">
-        <!-- Row 1: highlight + 2 cards -->
-        <div class="uk-width-1-1 uk-width-1-2@m">
-          <div class="ju_fp_diff__highlight">
-            <div class="ju_fp_diff__highlight_bg"></div>
-            <div class="ju_fp_diff__highlight_inner">
-              <div class="ju_fp_diff__highlight_number">100%</div>
-              <h3 class="ju_fp_diff__highlight_title">Tập trung cho kết quả kinh doanh</h3>
-              <p class="ju_fp_diff__highlight_desc">Mọi hoạt động trên Fanpage đều hướng đến mục tiêu cuối cùng: tăng
-                doanh thu và giá trị thương hiệu cho doanh nghiệp của bạn.</p>
-            </div>
-          </div>
-        </div>
-        <div class="uk-width-1-1 uk-width-1-2@m">
-          <div uk-grid class="uk-child-width-1-1 uk-grid-match" style="height:100%">
-            <div>
-              <div class="ju_fp_diff_card">
-                <div class="ju_fp_diff_card__icon">
-                  <span uk-icon="icon: star; ratio: 1.3"></span>
-                </div>
-                <h4 class="ju_fp_diff_card__title">Tư duy marketing & bán hàng, không chỉ làm nội dung</h4>
-                <p class="ju_fp_diff_card__desc">Mỗi bài viết đều có chiến lược, từ giáo dục khách hàng đến chốt
-                  sale.</p>
-              </div>
-            </div>
-            <div>
-              <div class="ju_fp_diff_card">
-                <div class="ju_fp_diff_card__icon">
-                  <span uk-icon="icon: users; ratio: 1.3"></span>
-                </div>
-                <h4 class="ju_fp_diff_card__title">Đội ngũ chuyên môn từng triển khai nhiều ngành hàng</h4>
-                <p class="ju_fp_diff_card__desc">Am hiểu đa dạng lĩnh vực, linh hoạt với mọi yêu cầu của bạn.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Row 2: 3 cards -->
-      <div uk-grid class="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match uk-margin-top">
-        <div>
-          <div class="ju_fp_diff_card">
-            <div class="ju_fp_diff_card__icon">
-              <span uk-icon="icon: heart; ratio: 1.3"></span>
-            </div>
-            <h4 class="ju_fp_diff_card__title">Nội dung cá nhân hóa theo từng Fanpage</h4>
-            <p class="ju_fp_diff_card__desc">Không dùng template đại trà, mỗi page đều có content plan riêng biệt.</p>
-          </div>
-        </div>
-        <div>
-          <div class="ju_fp_diff_card">
-            <div class="ju_fp_diff_card__icon">
-              <span uk-icon="icon: list; ratio: 1.3"></span>
-            </div>
-            <h4 class="ju_fp_diff_card__title">Báo cáo rõ ràng – số liệu thật – dễ hiểu</h4>
-            <p class="ju_fp_diff_card__desc">Cập nhật định kỳ, minh bạch về hiệu quả và lộ trình tiếp theo.</p>
-          </div>
-        </div>
-        <div>
-          <div class="ju_fp_diff_card">
-            <div class="ju_fp_diff_card__icon">
-              <span uk-icon="icon: bolt; ratio: 1.3"></span>
-            </div>
-            <h4 class="ju_fp_diff_card__title">Tối đa hóa hiệu quả tiếp thị</h4>
-            <p class="ju_fp_diff_card__desc">Kết hợp organic và paid, giúp tối ưu chi phí quảng cáo và tăng reach.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -1617,7 +2026,8 @@
                 <div class="ju_process_step__icon"><span uk-icon="icon: search; ratio: 1.5"></span></div>
                 <div class="ju_process_step__text">
                   <h4 class="ju_process_step__title">Xây dựng chiến lược nội dung</h4>
-                  <p class="ju_process_step__desc">Lên content plan theo tháng, xác định pillar content và rubric phù hợp.</p>
+                  <p class="ju_process_step__desc">Lên content plan theo tháng, xác định pillar content và rubric phù
+                    hợp.</p>
                 </div>
               </div>
             </div>
@@ -1681,6 +2091,399 @@
                   <p class="ju_process_step__desc">Theo dõi hiệu quả, phân tích dữ liệu và đề xuất cải thiện.</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ĐIỂM KHÁC BIỆT -->
+  <section class="ju_fp_diff">
+    <div class="uk-container">
+      <div class="ju_fp_diff__header">
+        <span class="ju_section_tag">
+          <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
+          </svg>
+          Vì sao nên chọn chúng tôi
+        </span>
+        <h2 class="ju_fp_diff__title">Điểm khác biệt của dịch vụ chăm sóc <span>Fanpage</span> của chúng tôi</h2>
+      </div>
+
+      <div class="ju_fp_diff__grid">
+        <!-- Cell 1 (row 1, span 2): Highlight 100% -->
+        <div class="ju_fp_diff__cell--100">
+          <div class="ju_fp_diff__highlight">
+            <div class="ju_fp_diff__highlight_number">100%</div>
+            <p class="ju_fp_diff__highlight_desc">Mọi hoạt động trên Fanpage đều hướng đến mục tiêu cuối cùng: tăng
+              doanh thu và giá trị thương hiệu cho doanh nghiệp của bạn.</p>
+            <a href="contact.html" class="ju_fp_diff__highlight_btn">LIÊN HỆ NGAY <span uk-icon><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                  <path
+                    d="M13.6496 2.3499C13.6496 2.21657 13.5996 2.0999 13.4996 1.9999C13.3996 1.8999 13.2829 1.8499 13.1496 1.8499H7.54961C7.41628 1.8499 7.29961 1.8999 7.19961 1.9999C7.09961 2.0999 7.04961 2.21657 7.04961 2.3499C7.04961 2.48324 7.09961 2.59157 7.19961 2.6749C7.29961 2.75824 7.41628 2.7999 7.54961 2.7999H11.9996L2.49961 12.2999C2.39961 12.3999 2.34961 12.5166 2.34961 12.6499C2.34961 12.7832 2.39961 12.8999 2.49961 12.9999C2.59961 13.0999 2.71628 13.1499 2.84961 13.1499C2.98294 13.1499 3.09961 13.0999 3.19961 12.9999L12.6996 3.4999V7.9499C12.6996 8.08324 12.7413 8.1999 12.8246 8.2999C12.9079 8.3999 13.0163 8.4499 13.1496 8.4499C13.2829 8.4499 13.3996 8.3999 13.4996 8.2999C13.5996 8.1999 13.6496 8.08324 13.6496 7.9499V2.3499Z"
+                    fill="white" />
+                </svg></span></a>
+          </div>
+        </div>
+        <!-- Cell 2: Tư duy marketing -->
+        <div>
+          <div class="ju_fp_diff_card">
+            <div class="ju_fp_diff_card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                <path
+                  d="M15.5752 16.9365C15.5752 17.3903 15.6419 17.8307 15.7754 18.2578C15.9089 18.6849 16.0957 19.0853 16.3359 19.459C16.5762 19.8327 16.8698 20.1597 17.2168 20.4399C17.5638 20.7202 17.9508 20.9404 18.3779 21.1006C18.7783 21.2874 19.2054 21.4009 19.6592 21.4409C20.113 21.481 20.5534 21.4609 20.9805 21.3809C21.4342 21.3008 21.8547 21.154 22.2417 20.9404C22.6287 20.7269 22.9824 20.46 23.3027 20.1396C23.623 19.8193 23.89 19.459 24.1035 19.0586C24.3171 18.6582 24.4639 18.2445 24.5439 17.8174C24.624 17.3636 24.644 16.9165 24.604 16.4761C24.564 16.0356 24.4639 15.6019 24.3037 15.1748C24.1169 14.7744 23.8833 14.4007 23.603 14.0537C23.3228 13.7067 22.9958 13.4131 22.6221 13.1729C22.2484 12.9059 21.848 12.7124 21.4209 12.5923C20.9938 12.4722 20.5534 12.4121 20.0996 12.4121C19.5124 12.4121 18.9385 12.5256 18.3779 12.7524C17.8174 12.9793 17.3236 13.3063 16.8965 13.7334C16.4694 14.1605 16.1424 14.6476 15.9155 15.1948C15.6886 15.742 15.5752 16.3226 15.5752 16.9365ZM22.3818 16.9365C22.3818 17.1501 22.3485 17.3636 22.2817 17.5771C22.215 17.7907 22.1149 17.9909 21.9814 18.1777C21.8747 18.3646 21.7345 18.5314 21.561 18.6782C21.3875 18.825 21.194 18.9385 20.9805 19.0186C20.7669 19.0986 20.5467 19.152 20.3198 19.1787C20.0929 19.2054 19.8727 19.1921 19.6592 19.1387C19.4456 19.112 19.2388 19.0452 19.0386 18.9385C18.8384 18.8317 18.6582 18.6982 18.498 18.5381C18.3379 18.3779 18.2044 18.1978 18.0977 17.9976C17.9909 17.7974 17.9242 17.5905 17.8975 17.377C17.8441 17.1634 17.8307 16.9432 17.8574 16.7163C17.8841 16.4894 17.9375 16.2692 18.0176 16.0557C18.0977 15.8421 18.2111 15.6486 18.3579 15.4751C18.5047 15.3016 18.6715 15.1615 18.8584 15.0547C19.0452 14.9212 19.2454 14.8211 19.459 14.7544C19.6725 14.6877 19.8861 14.6543 20.0996 14.6543C20.3932 14.6543 20.6802 14.7144 20.9604 14.8345C21.2407 14.9546 21.4876 15.1214 21.7012 15.335C21.9147 15.5485 22.0815 15.7954 22.2017 16.0757C22.3218 16.356 22.3818 16.6429 22.3818 16.9365ZM23.7832 26.4258L24.1436 27.5068C24.1969 27.6403 24.2703 27.7604 24.3638 27.8672C24.4572 27.974 24.5706 28.0674 24.7041 28.1475C24.8376 28.2275 24.9777 28.2676 25.1245 28.2676C25.2713 28.2676 25.4248 28.2542 25.585 28.2275C25.7184 28.1742 25.8452 28.0941 25.9653 27.9873C26.0854 27.8805 26.1722 27.7604 26.2256 27.627C26.3057 27.4935 26.3457 27.3534 26.3457 27.2065C26.3457 27.0597 26.3324 26.9196 26.3057 26.7861L25.9453 25.7051C25.7852 25.2513 25.5649 24.8309 25.2847 24.4438C25.0044 24.0568 24.6641 23.7298 24.2637 23.4629C23.89 23.196 23.4762 22.9891 23.0225 22.8423C22.5687 22.6955 22.1016 22.6221 21.6211 22.6221H18.5781C18.0977 22.6221 17.6372 22.6955 17.1968 22.8423C16.7563 22.9891 16.3359 23.196 15.9355 23.4629C15.5618 23.7298 15.2349 24.0568 14.9546 24.4438C14.6743 24.8309 14.4541 25.2513 14.2939 25.7051L13.9336 26.7861C13.9069 26.8395 13.8869 26.9062 13.8735 26.9863C13.8602 27.0664 13.8669 27.1465 13.8936 27.2266C13.8936 27.3066 13.9002 27.38 13.9136 27.4468C13.9269 27.5135 13.9469 27.5736 13.9736 27.627C14.027 27.707 14.0737 27.7738 14.1138 27.8271C14.1538 27.8805 14.2005 27.9339 14.2539 27.9873C14.3073 28.0407 14.3674 28.0874 14.4341 28.1274C14.5008 28.1675 14.5742 28.2008 14.6543 28.2275C14.7344 28.2275 14.8078 28.2342 14.8745 28.2476C14.9412 28.2609 15.0146 28.2676 15.0947 28.2676C15.1748 28.2676 15.2482 28.2542 15.3149 28.2275C15.3817 28.2008 15.4417 28.1742 15.4951 28.1475C15.5752 28.1208 15.6419 28.0807 15.6953 28.0273C15.7487 27.974 15.8021 27.9206 15.8555 27.8672C15.9089 27.8138 15.9556 27.7537 15.9956 27.687C16.0356 27.6203 16.069 27.5602 16.0957 27.5068L16.4561 26.4258C16.5361 26.1855 16.6429 25.972 16.7764 25.7852C16.9098 25.5983 17.07 25.4382 17.2568 25.3047C17.4704 25.1445 17.6906 25.0311 17.9175 24.9644C18.1444 24.8976 18.3779 24.8643 18.6182 24.8643H21.6211C21.8613 24.8643 22.0949 24.8976 22.3218 24.9644C22.5487 25.0311 22.7555 25.1445 22.9424 25.3047C23.1559 25.4382 23.3294 25.5983 23.4629 25.7852C23.5964 25.972 23.7031 26.1855 23.7832 26.4258ZM15.1348 32.3115C14.0938 31.8577 13.1395 31.2839 12.272 30.5898C11.4045 29.8958 10.6504 29.0951 10.0098 28.1875C9.34245 27.2799 8.81527 26.3057 8.42822 25.2646C8.04118 24.2236 7.79427 23.1426 7.6875 22.0215H8.76855C8.92871 22.0215 9.07552 21.9948 9.20898 21.9414C9.34245 21.888 9.46256 21.8079 9.56934 21.7012C9.67611 21.5944 9.75619 21.4676 9.80957 21.3208C9.86296 21.174 9.88965 21.0339 9.88965 20.9004C9.88965 20.7402 9.86296 20.5934 9.80957 20.46C9.75619 20.3265 9.67611 20.2064 9.56934 20.0996C9.46256 19.9928 9.34245 19.9128 9.20898 19.8594C9.07552 19.806 8.92871 19.7793 8.76855 19.7793H7.6875C7.82096 18.3112 8.19466 16.9165 8.80859 15.5952C9.42253 14.2739 10.25 13.1061 11.291 12.0918C12.332 11.0508 13.5132 10.2233 14.8345 9.60938C16.1558 8.99544 17.5371 8.62174 18.9785 8.48828V9.56934C18.9785 9.7028 19.0052 9.84294 19.0586 9.98975C19.112 10.1366 19.1921 10.2633 19.2988 10.3701C19.4056 10.4769 19.5324 10.557 19.6792 10.6104C19.826 10.6637 19.9661 10.6904 20.0996 10.6904C20.2598 10.6904 20.4066 10.6637 20.54 10.6104C20.6735 10.557 20.7936 10.4769 20.9004 10.3701C21.0072 10.2633 21.0872 10.1366 21.1406 9.98975C21.194 9.84294 21.2207 9.7028 21.2207 9.56934V5.04492C21.2207 4.88477 21.194 4.73796 21.1406 4.60449C21.0872 4.47103 21.0072 4.35091 20.9004 4.24414C20.7936 4.13737 20.6735 4.05062 20.54 3.98389C20.4066 3.91716 20.2598 3.88379 20.0996 3.88379C19.9661 3.88379 19.826 3.91716 19.6792 3.98389C19.5324 4.05062 19.4056 4.13737 19.2988 4.24414C19.1921 4.35091 19.112 4.47103 19.0586 4.60449C19.0052 4.73796 18.9785 4.88477 18.9785 5.04492V6.20605C17.2168 6.33952 15.5418 6.77328 13.9536 7.50732C12.3654 8.24137 10.944 9.23568 9.68945 10.4902C8.46159 11.7181 7.48063 13.1328 6.74658 14.7344C6.01253 16.3359 5.57878 18.0176 5.44531 19.7793H4.24414C4.08398 19.7793 3.93717 19.806 3.80371 19.8594C3.67025 19.9128 3.55013 19.9928 3.44336 20.0996C3.33659 20.2064 3.25651 20.3265 3.20312 20.46C3.14974 20.5934 3.12305 20.7402 3.12305 20.9004C3.12305 21.0339 3.14974 21.174 3.20312 21.3208C3.25651 21.4676 3.33659 21.5944 3.44336 21.7012C3.55013 21.8079 3.67025 21.888 3.80371 21.9414C3.93717 21.9948 4.08398 22.0215 4.24414 22.0215H5.36523C5.47201 23.3561 5.75228 24.6574 6.20605 25.9253C6.65983 27.1932 7.28711 28.361 8.08789 29.4287C8.86198 30.5231 9.76953 31.4907 10.8105 32.3315C11.8516 33.1724 12.986 33.8597 14.2139 34.3936C14.2939 34.4202 14.3674 34.4469 14.4341 34.4736C14.5008 34.5003 14.5742 34.5137 14.6543 34.5137C14.7344 34.5137 14.8078 34.507 14.8745 34.4937C14.9412 34.4803 15.0146 34.4603 15.0947 34.4336C15.1481 34.4069 15.2082 34.3735 15.2749 34.3335C15.3416 34.2935 15.4017 34.2467 15.4551 34.1934C15.5085 34.14 15.5552 34.0799 15.5952 34.0132C15.6353 33.9465 15.6686 33.8864 15.6953 33.833C15.722 33.7529 15.7487 33.6795 15.7754 33.6128C15.8021 33.5461 15.8154 33.4727 15.8154 33.3926C15.8154 33.3125 15.8088 33.2324 15.7954 33.1523C15.7821 33.0723 15.762 33.0055 15.7354 32.9521C15.7087 32.8721 15.6753 32.7987 15.6353 32.7319C15.5952 32.6652 15.5485 32.6051 15.4951 32.5518C15.4417 32.4984 15.3817 32.4517 15.3149 32.4116C15.2482 32.3716 15.1882 32.3382 15.1348 32.3115ZM35.9551 19.7793H34.834C34.7272 18.418 34.4469 17.11 33.9932 15.8555C33.5394 14.6009 32.9255 13.4264 32.1514 12.332C31.3773 11.2376 30.4631 10.27 29.4087 9.4292C28.3543 8.58838 27.2132 7.90104 25.9854 7.36719C25.932 7.34049 25.8652 7.32047 25.7852 7.30713C25.7051 7.29378 25.625 7.27376 25.5449 7.24707C25.4648 7.24707 25.3914 7.25374 25.3247 7.26709C25.258 7.28044 25.1846 7.30046 25.1045 7.32715C25.0244 7.35384 24.951 7.38721 24.8843 7.42725C24.8175 7.46729 24.7575 7.514 24.7041 7.56738C24.6507 7.62077 24.604 7.68083 24.564 7.74756C24.5239 7.81429 24.4906 7.87435 24.4639 7.92773C24.4372 8.00781 24.4105 8.08789 24.3838 8.16797C24.3571 8.24805 24.3438 8.32812 24.3438 8.4082C24.3438 8.46159 24.3504 8.52832 24.3638 8.6084C24.3771 8.68848 24.4105 8.76855 24.4639 8.84863C24.4906 8.90202 24.5239 8.96208 24.564 9.02881C24.604 9.09554 24.6507 9.1556 24.7041 9.20898C24.7575 9.26237 24.8175 9.30908 24.8843 9.34912C24.951 9.38916 25.0244 9.42253 25.1045 9.44922C26.1188 9.90299 27.0597 10.4836 27.9272 11.1909C28.7948 11.8983 29.5622 12.7057 30.2295 13.6133C30.8701 14.4941 31.384 15.4618 31.771 16.5161C32.158 17.5705 32.4049 18.6582 32.5117 19.7793H31.4307C31.2972 19.7793 31.1571 19.806 31.0103 19.8594C30.8634 19.9128 30.7367 19.9928 30.6299 20.0996C30.5231 20.2064 30.443 20.3265 30.3896 20.46C30.3363 20.5934 30.3096 20.7402 30.3096 20.9004C30.3096 21.0339 30.3363 21.174 30.3896 21.3208C30.443 21.4676 30.5231 21.5944 30.6299 21.7012C30.7367 21.8079 30.8634 21.888 31.0103 21.9414C31.1571 21.9948 31.2972 22.0215 31.4307 22.0215H32.5117C32.3783 23.4629 32.0046 24.8442 31.3906 26.1655C30.7767 27.4868 29.9492 28.668 28.9082 29.709C27.8939 30.75 26.7261 31.5775 25.4048 32.1914C24.0835 32.8053 22.6888 33.179 21.2207 33.3125V32.2314C21.2207 32.0713 21.194 31.9245 21.1406 31.791C21.0872 31.6576 21.0072 31.5374 20.9004 31.4307C20.7936 31.3239 20.6735 31.2438 20.54 31.1904C20.4066 31.137 20.2598 31.1104 20.0996 31.1104C19.9661 31.1104 19.826 31.137 19.6792 31.1904C19.5324 31.2438 19.4056 31.3239 19.2988 31.4307C19.1921 31.5374 19.112 31.6576 19.0586 31.791C19.0052 31.9245 18.9785 32.0713 18.9785 32.2314V36.7559C18.9785 36.916 19.0052 37.0628 19.0586 37.1963C19.112 37.3298 19.1921 37.4499 19.2988 37.5566C19.4056 37.6634 19.5324 37.7435 19.6792 37.7969C19.826 37.8503 19.9661 37.877 20.0996 37.877C20.2598 37.877 20.4066 37.8503 20.54 37.7969C20.6735 37.7435 20.7936 37.6634 20.9004 37.5566C21.0072 37.4499 21.0872 37.3298 21.1406 37.1963C21.194 37.0628 21.2207 36.916 21.2207 36.7559V35.5547C22.9824 35.4212 24.6641 34.9875 26.2656 34.2534C27.8672 33.5194 29.2819 32.5384 30.5098 31.3105C31.7643 30.056 32.7586 28.6346 33.4927 27.0464C34.2267 25.4582 34.6605 23.7832 34.7939 22.0215H35.9551C36.1152 22.0215 36.262 21.9948 36.3955 21.9414C36.529 21.888 36.6491 21.8079 36.7559 21.7012C36.8626 21.5944 36.9494 21.4676 37.0161 21.3208C37.0828 21.174 37.1162 21.0339 37.1162 20.9004C37.1162 20.7402 37.0828 20.5934 37.0161 20.46C36.9494 20.3265 36.8626 20.2064 36.7559 20.0996C36.6491 19.9928 36.529 19.9128 36.3955 19.8594C36.262 19.806 36.1152 19.7793 35.9551 19.7793Z"
+                  fill="white" />
+              </svg>
+            </div>
+            <h4 class="ju_fp_diff_card__title">Tư duy marketing &amp; bán hàng, không chỉ làm nội dung</h4>
+          </div>
+        </div>
+        <!-- Cell 3: Đội ngũ chuyên môn -->
+        <div>
+          <div class="ju_fp_diff_card">
+            <div class="ju_fp_diff_card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                <path
+                  d="M15.5752 16.9365C15.5752 17.3903 15.6419 17.8307 15.7754 18.2578C15.9089 18.6849 16.0957 19.0853 16.3359 19.459C16.5762 19.8327 16.8698 20.1597 17.2168 20.4399C17.5638 20.7202 17.9508 20.9404 18.3779 21.1006C18.7783 21.2874 19.2054 21.4009 19.6592 21.4409C20.113 21.481 20.5534 21.4609 20.9805 21.3809C21.4342 21.3008 21.8547 21.154 22.2417 20.9404C22.6287 20.7269 22.9824 20.46 23.3027 20.1396C23.623 19.8193 23.89 19.459 24.1035 19.0586C24.3171 18.6582 24.4639 18.2445 24.5439 17.8174C24.624 17.3636 24.644 16.9165 24.604 16.4761C24.564 16.0356 24.4639 15.6019 24.3037 15.1748C24.1169 14.7744 23.8833 14.4007 23.603 14.0537C23.3228 13.7067 22.9958 13.4131 22.6221 13.1729C22.2484 12.9059 21.848 12.7124 21.4209 12.5923C20.9938 12.4722 20.5534 12.4121 20.0996 12.4121C19.5124 12.4121 18.9385 12.5256 18.3779 12.7524C17.8174 12.9793 17.3236 13.3063 16.8965 13.7334C16.4694 14.1605 16.1424 14.6476 15.9155 15.1948C15.6886 15.742 15.5752 16.3226 15.5752 16.9365ZM22.3818 16.9365C22.3818 17.1501 22.3485 17.3636 22.2817 17.5771C22.215 17.7907 22.1149 17.9909 21.9814 18.1777C21.8747 18.3646 21.7345 18.5314 21.561 18.6782C21.3875 18.825 21.194 18.9385 20.9805 19.0186C20.7669 19.0986 20.5467 19.152 20.3198 19.1787C20.0929 19.2054 19.8727 19.1921 19.6592 19.1387C19.4456 19.112 19.2388 19.0452 19.0386 18.9385C18.8384 18.8317 18.6582 18.6982 18.498 18.5381C18.3379 18.3779 18.2044 18.1978 18.0977 17.9976C17.9909 17.7974 17.9242 17.5905 17.8975 17.377C17.8441 17.1634 17.8307 16.9432 17.8574 16.7163C17.8841 16.4894 17.9375 16.2692 18.0176 16.0557C18.0977 15.8421 18.2111 15.6486 18.3579 15.4751C18.5047 15.3016 18.6715 15.1615 18.8584 15.0547C19.0452 14.9212 19.2454 14.8211 19.459 14.7544C19.6725 14.6877 19.8861 14.6543 20.0996 14.6543C20.3932 14.6543 20.6802 14.7144 20.9604 14.8345C21.2407 14.9546 21.4876 15.1214 21.7012 15.335C21.9147 15.5485 22.0815 15.7954 22.2017 16.0757C22.3218 16.356 22.3818 16.6429 22.3818 16.9365ZM23.7832 26.4258L24.1436 27.5068C24.1969 27.6403 24.2703 27.7604 24.3638 27.8672C24.4572 27.974 24.5706 28.0674 24.7041 28.1475C24.8376 28.2275 24.9777 28.2676 25.1245 28.2676C25.2713 28.2676 25.4248 28.2542 25.585 28.2275C25.7184 28.1742 25.8452 28.0941 25.9653 27.9873C26.0854 27.8805 26.1722 27.7604 26.2256 27.627C26.3057 27.4935 26.3457 27.3534 26.3457 27.2065C26.3457 27.0597 26.3324 26.9196 26.3057 26.7861L25.9453 25.7051C25.7852 25.2513 25.5649 24.8309 25.2847 24.4438C25.0044 24.0568 24.6641 23.7298 24.2637 23.4629C23.89 23.196 23.4762 22.9891 23.0225 22.8423C22.5687 22.6955 22.1016 22.6221 21.6211 22.6221H18.5781C18.0977 22.6221 17.6372 22.6955 17.1968 22.8423C16.7563 22.9891 16.3359 23.196 15.9355 23.4629C15.5618 23.7298 15.2349 24.0568 14.9546 24.4438C14.6743 24.8309 14.4541 25.2513 14.2939 25.7051L13.9336 26.7861C13.9069 26.8395 13.8869 26.9062 13.8735 26.9863C13.8602 27.0664 13.8669 27.1465 13.8936 27.2266C13.8936 27.3066 13.9002 27.38 13.9136 27.4468C13.9269 27.5135 13.9469 27.5736 13.9736 27.627C14.027 27.707 14.0737 27.7738 14.1138 27.8271C14.1538 27.8805 14.2005 27.9339 14.2539 27.9873C14.3073 28.0407 14.3674 28.0874 14.4341 28.1274C14.5008 28.1675 14.5742 28.2008 14.6543 28.2275C14.7344 28.2275 14.8078 28.2342 14.8745 28.2476C14.9412 28.2609 15.0146 28.2676 15.0947 28.2676C15.1748 28.2676 15.2482 28.2542 15.3149 28.2275C15.3817 28.2008 15.4417 28.1742 15.4951 28.1475C15.5752 28.1208 15.6419 28.0807 15.6953 28.0273C15.7487 27.974 15.8021 27.9206 15.8555 27.8672C15.9089 27.8138 15.9556 27.7537 15.9956 27.687C16.0356 27.6203 16.069 27.5602 16.0957 27.5068L16.4561 26.4258C16.5361 26.1855 16.6429 25.972 16.7764 25.7852C16.9098 25.5983 17.07 25.4382 17.2568 25.3047C17.4704 25.1445 17.6906 25.0311 17.9175 24.9644C18.1444 24.8976 18.3779 24.8643 18.6182 24.8643H21.6211C21.8613 24.8643 22.0949 24.8976 22.3218 24.9644C22.5487 25.0311 22.7555 25.1445 22.9424 25.3047C23.1559 25.4382 23.3294 25.5983 23.4629 25.7852C23.5964 25.972 23.7031 26.1855 23.7832 26.4258ZM15.1348 32.3115C14.0938 31.8577 13.1395 31.2839 12.272 30.5898C11.4045 29.8958 10.6504 29.0951 10.0098 28.1875C9.34245 27.2799 8.81527 26.3057 8.42822 25.2646C8.04118 24.2236 7.79427 23.1426 7.6875 22.0215H8.76855C8.92871 22.0215 9.07552 21.9948 9.20898 21.9414C9.34245 21.888 9.46256 21.8079 9.56934 21.7012C9.67611 21.5944 9.75619 21.4676 9.80957 21.3208C9.86296 21.174 9.88965 21.0339 9.88965 20.9004C9.88965 20.7402 9.86296 20.5934 9.80957 20.46C9.75619 20.3265 9.67611 20.2064 9.56934 20.0996C9.46256 19.9928 9.34245 19.9128 9.20898 19.8594C9.07552 19.806 8.92871 19.7793 8.76855 19.7793H7.6875C7.82096 18.3112 8.19466 16.9165 8.80859 15.5952C9.42253 14.2739 10.25 13.1061 11.291 12.0918C12.332 11.0508 13.5132 10.2233 14.8345 9.60938C16.1558 8.99544 17.5371 8.62174 18.9785 8.48828V9.56934C18.9785 9.7028 19.0052 9.84294 19.0586 9.98975C19.112 10.1366 19.1921 10.2633 19.2988 10.3701C19.4056 10.4769 19.5324 10.557 19.6792 10.6104C19.826 10.6637 19.9661 10.6904 20.0996 10.6904C20.2598 10.6904 20.4066 10.6637 20.54 10.6104C20.6735 10.557 20.7936 10.4769 20.9004 10.3701C21.0072 10.2633 21.0872 10.1366 21.1406 9.98975C21.194 9.84294 21.2207 9.7028 21.2207 9.56934V5.04492C21.2207 4.88477 21.194 4.73796 21.1406 4.60449C21.0872 4.47103 21.0072 4.35091 20.9004 4.24414C20.7936 4.13737 20.6735 4.05062 20.54 3.98389C20.4066 3.91716 20.2598 3.88379 20.0996 3.88379C19.9661 3.88379 19.826 3.91716 19.6792 3.98389C19.5324 4.05062 19.4056 4.13737 19.2988 4.24414C19.1921 4.35091 19.112 4.47103 19.0586 4.60449C19.0052 4.73796 18.9785 4.88477 18.9785 5.04492V6.20605C17.2168 6.33952 15.5418 6.77328 13.9536 7.50732C12.3654 8.24137 10.944 9.23568 9.68945 10.4902C8.46159 11.7181 7.48063 13.1328 6.74658 14.7344C6.01253 16.3359 5.57878 18.0176 5.44531 19.7793H4.24414C4.08398 19.7793 3.93717 19.806 3.80371 19.8594C3.67025 19.9128 3.55013 19.9928 3.44336 20.0996C3.33659 20.2064 3.25651 20.3265 3.20312 20.46C3.14974 20.5934 3.12305 20.7402 3.12305 20.9004C3.12305 21.0339 3.14974 21.174 3.20312 21.3208C3.25651 21.4676 3.33659 21.5944 3.44336 21.7012C3.55013 21.8079 3.67025 21.888 3.80371 21.9414C3.93717 21.9948 4.08398 22.0215 4.24414 22.0215H5.36523C5.47201 23.3561 5.75228 24.6574 6.20605 25.9253C6.65983 27.1932 7.28711 28.361 8.08789 29.4287C8.86198 30.5231 9.76953 31.4907 10.8105 32.3315C11.8516 33.1724 12.986 33.8597 14.2139 34.3936C14.2939 34.4202 14.3674 34.4469 14.4341 34.4736C14.5008 34.5003 14.5742 34.5137 14.6543 34.5137C14.7344 34.5137 14.8078 34.507 14.8745 34.4937C14.9412 34.4803 15.0146 34.4603 15.0947 34.4336C15.1481 34.4069 15.2082 34.3735 15.2749 34.3335C15.3416 34.2935 15.4017 34.2467 15.4551 34.1934C15.5085 34.14 15.5552 34.0799 15.5952 34.0132C15.6353 33.9465 15.6686 33.8864 15.6953 33.833C15.722 33.7529 15.7487 33.6795 15.7754 33.6128C15.8021 33.5461 15.8154 33.4727 15.8154 33.3926C15.8154 33.3125 15.8088 33.2324 15.7954 33.1523C15.7821 33.0723 15.762 33.0055 15.7354 32.9521C15.7087 32.8721 15.6753 32.7987 15.6353 32.7319C15.5952 32.6652 15.5485 32.6051 15.4951 32.5518C15.4417 32.4984 15.3817 32.4517 15.3149 32.4116C15.2482 32.3716 15.1882 32.3382 15.1348 32.3115ZM35.9551 19.7793H34.834C34.7272 18.418 34.4469 17.11 33.9932 15.8555C33.5394 14.6009 32.9255 13.4264 32.1514 12.332C31.3773 11.2376 30.4631 10.27 29.4087 9.4292C28.3543 8.58838 27.2132 7.90104 25.9854 7.36719C25.932 7.34049 25.8652 7.32047 25.7852 7.30713C25.7051 7.29378 25.625 7.27376 25.5449 7.24707C25.4648 7.24707 25.3914 7.25374 25.3247 7.26709C25.258 7.28044 25.1846 7.30046 25.1045 7.32715C25.0244 7.35384 24.951 7.38721 24.8843 7.42725C24.8175 7.46729 24.7575 7.514 24.7041 7.56738C24.6507 7.62077 24.604 7.68083 24.564 7.74756C24.5239 7.81429 24.4906 7.87435 24.4639 7.92773C24.4372 8.00781 24.4105 8.08789 24.3838 8.16797C24.3571 8.24805 24.3438 8.32812 24.3438 8.4082C24.3438 8.46159 24.3504 8.52832 24.3638 8.6084C24.3771 8.68848 24.4105 8.76855 24.4639 8.84863C24.4906 8.90202 24.5239 8.96208 24.564 9.02881C24.604 9.09554 24.6507 9.1556 24.7041 9.20898C24.7575 9.26237 24.8175 9.30908 24.8843 9.34912C24.951 9.38916 25.0244 9.42253 25.1045 9.44922C26.1188 9.90299 27.0597 10.4836 27.9272 11.1909C28.7948 11.8983 29.5622 12.7057 30.2295 13.6133C30.8701 14.4941 31.384 15.4618 31.771 16.5161C32.158 17.5705 32.4049 18.6582 32.5117 19.7793H31.4307C31.2972 19.7793 31.1571 19.806 31.0103 19.8594C30.8634 19.9128 30.7367 19.9928 30.6299 20.0996C30.5231 20.2064 30.443 20.3265 30.3896 20.46C30.3363 20.5934 30.3096 20.7402 30.3096 20.9004C30.3096 21.0339 30.3363 21.174 30.3896 21.3208C30.443 21.4676 30.5231 21.5944 30.6299 21.7012C30.7367 21.8079 30.8634 21.888 31.0103 21.9414C31.1571 21.9948 31.2972 22.0215 31.4307 22.0215H32.5117C32.3783 23.4629 32.0046 24.8442 31.3906 26.1655C30.7767 27.4868 29.9492 28.668 28.9082 29.709C27.8939 30.75 26.7261 31.5775 25.4048 32.1914C24.0835 32.8053 22.6888 33.179 21.2207 33.3125V32.2314C21.2207 32.0713 21.194 31.9245 21.1406 31.791C21.0872 31.6576 21.0072 31.5374 20.9004 31.4307C20.7936 31.3239 20.6735 31.2438 20.54 31.1904C20.4066 31.137 20.2598 31.1104 20.0996 31.1104C19.9661 31.1104 19.826 31.137 19.6792 31.1904C19.5324 31.2438 19.4056 31.3239 19.2988 31.4307C19.1921 31.5374 19.112 31.6576 19.0586 31.791C19.0052 31.9245 18.9785 32.0713 18.9785 32.2314V36.7559C18.9785 36.916 19.0052 37.0628 19.0586 37.1963C19.112 37.3298 19.1921 37.4499 19.2988 37.5566C19.4056 37.6634 19.5324 37.7435 19.6792 37.7969C19.826 37.8503 19.9661 37.877 20.0996 37.877C20.2598 37.877 20.4066 37.8503 20.54 37.7969C20.6735 37.7435 20.7936 37.6634 20.9004 37.5566C21.0072 37.4499 21.0872 37.3298 21.1406 37.1963C21.194 37.0628 21.2207 36.916 21.2207 36.7559V35.5547C22.9824 35.4212 24.6641 34.9875 26.2656 34.2534C27.8672 33.5194 29.2819 32.5384 30.5098 31.3105C31.7643 30.056 32.7586 28.6346 33.4927 27.0464C34.2267 25.4582 34.6605 23.7832 34.7939 22.0215H35.9551C36.1152 22.0215 36.262 21.9948 36.3955 21.9414C36.529 21.888 36.6491 21.8079 36.7559 21.7012C36.8626 21.5944 36.9494 21.4676 37.0161 21.3208C37.0828 21.174 37.1162 21.0339 37.1162 20.9004C37.1162 20.7402 37.0828 20.5934 37.0161 20.46C36.9494 20.3265 36.8626 20.2064 36.7559 20.0996C36.6491 19.9928 36.529 19.9128 36.3955 19.8594C36.262 19.806 36.1152 19.7793 35.9551 19.7793Z"
+                  fill="white" />
+              </svg>
+            </div>
+            <h4 class="ju_fp_diff_card__title">Đội ngũ chuyên môn từng triển khai nhiều ngành hàng</h4>
+          </div>
+        </div>
+        <!-- Cell 4: Nội dung cá nhân hóa -->
+        <div>
+          <div class="ju_fp_diff_card">
+            <div class="ju_fp_diff_card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                <path
+                  d="M15.5752 16.9365C15.5752 17.3903 15.6419 17.8307 15.7754 18.2578C15.9089 18.6849 16.0957 19.0853 16.3359 19.459C16.5762 19.8327 16.8698 20.1597 17.2168 20.4399C17.5638 20.7202 17.9508 20.9404 18.3779 21.1006C18.7783 21.2874 19.2054 21.4009 19.6592 21.4409C20.113 21.481 20.5534 21.4609 20.9805 21.3809C21.4342 21.3008 21.8547 21.154 22.2417 20.9404C22.6287 20.7269 22.9824 20.46 23.3027 20.1396C23.623 19.8193 23.89 19.459 24.1035 19.0586C24.3171 18.6582 24.4639 18.2445 24.5439 17.8174C24.624 17.3636 24.644 16.9165 24.604 16.4761C24.564 16.0356 24.4639 15.6019 24.3037 15.1748C24.1169 14.7744 23.8833 14.4007 23.603 14.0537C23.3228 13.7067 22.9958 13.4131 22.6221 13.1729C22.2484 12.9059 21.848 12.7124 21.4209 12.5923C20.9938 12.4722 20.5534 12.4121 20.0996 12.4121C19.5124 12.4121 18.9385 12.5256 18.3779 12.7524C17.8174 12.9793 17.3236 13.3063 16.8965 13.7334C16.4694 14.1605 16.1424 14.6476 15.9155 15.1948C15.6886 15.742 15.5752 16.3226 15.5752 16.9365ZM22.3818 16.9365C22.3818 17.1501 22.3485 17.3636 22.2817 17.5771C22.215 17.7907 22.1149 17.9909 21.9814 18.1777C21.8747 18.3646 21.7345 18.5314 21.561 18.6782C21.3875 18.825 21.194 18.9385 20.9805 19.0186C20.7669 19.0986 20.5467 19.152 20.3198 19.1787C20.0929 19.2054 19.8727 19.1921 19.6592 19.1387C19.4456 19.112 19.2388 19.0452 19.0386 18.9385C18.8384 18.8317 18.6582 18.6982 18.498 18.5381C18.3379 18.3779 18.2044 18.1978 18.0977 17.9976C17.9909 17.7974 17.9242 17.5905 17.8975 17.377C17.8441 17.1634 17.8307 16.9432 17.8574 16.7163C17.8841 16.4894 17.9375 16.2692 18.0176 16.0557C18.0977 15.8421 18.2111 15.6486 18.3579 15.4751C18.5047 15.3016 18.6715 15.1615 18.8584 15.0547C19.0452 14.9212 19.2454 14.8211 19.459 14.7544C19.6725 14.6877 19.8861 14.6543 20.0996 14.6543C20.3932 14.6543 20.6802 14.7144 20.9604 14.8345C21.2407 14.9546 21.4876 15.1214 21.7012 15.335C21.9147 15.5485 22.0815 15.7954 22.2017 16.0757C22.3218 16.356 22.3818 16.6429 22.3818 16.9365ZM23.7832 26.4258L24.1436 27.5068C24.1969 27.6403 24.2703 27.7604 24.3638 27.8672C24.4572 27.974 24.5706 28.0674 24.7041 28.1475C24.8376 28.2275 24.9777 28.2676 25.1245 28.2676C25.2713 28.2676 25.4248 28.2542 25.585 28.2275C25.7184 28.1742 25.8452 28.0941 25.9653 27.9873C26.0854 27.8805 26.1722 27.7604 26.2256 27.627C26.3057 27.4935 26.3457 27.3534 26.3457 27.2065C26.3457 27.0597 26.3324 26.9196 26.3057 26.7861L25.9453 25.7051C25.7852 25.2513 25.5649 24.8309 25.2847 24.4438C25.0044 24.0568 24.6641 23.7298 24.2637 23.4629C23.89 23.196 23.4762 22.9891 23.0225 22.8423C22.5687 22.6955 22.1016 22.6221 21.6211 22.6221H18.5781C18.0977 22.6221 17.6372 22.6955 17.1968 22.8423C16.7563 22.9891 16.3359 23.196 15.9355 23.4629C15.5618 23.7298 15.2349 24.0568 14.9546 24.4438C14.6743 24.8309 14.4541 25.2513 14.2939 25.7051L13.9336 26.7861C13.9069 26.8395 13.8869 26.9062 13.8735 26.9863C13.8602 27.0664 13.8669 27.1465 13.8936 27.2266C13.8936 27.3066 13.9002 27.38 13.9136 27.4468C13.9269 27.5135 13.9469 27.5736 13.9736 27.627C14.027 27.707 14.0737 27.7738 14.1138 27.8271C14.1538 27.8805 14.2005 27.9339 14.2539 27.9873C14.3073 28.0407 14.3674 28.0874 14.4341 28.1274C14.5008 28.1675 14.5742 28.2008 14.6543 28.2275C14.7344 28.2275 14.8078 28.2342 14.8745 28.2476C14.9412 28.2609 15.0146 28.2676 15.0947 28.2676C15.1748 28.2676 15.2482 28.2542 15.3149 28.2275C15.3817 28.2008 15.4417 28.1742 15.4951 28.1475C15.5752 28.1208 15.6419 28.0807 15.6953 28.0273C15.7487 27.974 15.8021 27.9206 15.8555 27.8672C15.9089 27.8138 15.9556 27.7537 15.9956 27.687C16.0356 27.6203 16.069 27.5602 16.0957 27.5068L16.4561 26.4258C16.5361 26.1855 16.6429 25.972 16.7764 25.7852C16.9098 25.5983 17.07 25.4382 17.2568 25.3047C17.4704 25.1445 17.6906 25.0311 17.9175 24.9644C18.1444 24.8976 18.3779 24.8643 18.6182 24.8643H21.6211C21.8613 24.8643 22.0949 24.8976 22.3218 24.9644C22.5487 25.0311 22.7555 25.1445 22.9424 25.3047C23.1559 25.4382 23.3294 25.5983 23.4629 25.7852C23.5964 25.972 23.7031 26.1855 23.7832 26.4258ZM15.1348 32.3115C14.0938 31.8577 13.1395 31.2839 12.272 30.5898C11.4045 29.8958 10.6504 29.0951 10.0098 28.1875C9.34245 27.2799 8.81527 26.3057 8.42822 25.2646C8.04118 24.2236 7.79427 23.1426 7.6875 22.0215H8.76855C8.92871 22.0215 9.07552 21.9948 9.20898 21.9414C9.34245 21.888 9.46256 21.8079 9.56934 21.7012C9.67611 21.5944 9.75619 21.4676 9.80957 21.3208C9.86296 21.174 9.88965 21.0339 9.88965 20.9004C9.88965 20.7402 9.86296 20.5934 9.80957 20.46C9.75619 20.3265 9.67611 20.2064 9.56934 20.0996C9.46256 19.9928 9.34245 19.9128 9.20898 19.8594C9.07552 19.806 8.92871 19.7793 8.76855 19.7793H7.6875C7.82096 18.3112 8.19466 16.9165 8.80859 15.5952C9.42253 14.2739 10.25 13.1061 11.291 12.0918C12.332 11.0508 13.5132 10.2233 14.8345 9.60938C16.1558 8.99544 17.5371 8.62174 18.9785 8.48828V9.56934C18.9785 9.7028 19.0052 9.84294 19.0586 9.98975C19.112 10.1366 19.1921 10.2633 19.2988 10.3701C19.4056 10.4769 19.5324 10.557 19.6792 10.6104C19.826 10.6637 19.9661 10.6904 20.0996 10.6904C20.2598 10.6904 20.4066 10.6637 20.54 10.6104C20.6735 10.557 20.7936 10.4769 20.9004 10.3701C21.0072 10.2633 21.0872 10.1366 21.1406 9.98975C21.194 9.84294 21.2207 9.7028 21.2207 9.56934V5.04492C21.2207 4.88477 21.194 4.73796 21.1406 4.60449C21.0872 4.47103 21.0072 4.35091 20.9004 4.24414C20.7936 4.13737 20.6735 4.05062 20.54 3.98389C20.4066 3.91716 20.2598 3.88379 20.0996 3.88379C19.9661 3.88379 19.826 3.91716 19.6792 3.98389C19.5324 4.05062 19.4056 4.13737 19.2988 4.24414C19.1921 4.35091 19.112 4.47103 19.0586 4.60449C19.0052 4.73796 18.9785 4.88477 18.9785 5.04492V6.20605C17.2168 6.33952 15.5418 6.77328 13.9536 7.50732C12.3654 8.24137 10.944 9.23568 9.68945 10.4902C8.46159 11.7181 7.48063 13.1328 6.74658 14.7344C6.01253 16.3359 5.57878 18.0176 5.44531 19.7793H4.24414C4.08398 19.7793 3.93717 19.806 3.80371 19.8594C3.67025 19.9128 3.55013 19.9928 3.44336 20.0996C3.33659 20.2064 3.25651 20.3265 3.20312 20.46C3.14974 20.5934 3.12305 20.7402 3.12305 20.9004C3.12305 21.0339 3.14974 21.174 3.20312 21.3208C3.25651 21.4676 3.33659 21.5944 3.44336 21.7012C3.55013 21.8079 3.67025 21.888 3.80371 21.9414C3.93717 21.9948 4.08398 22.0215 4.24414 22.0215H5.36523C5.47201 23.3561 5.75228 24.6574 6.20605 25.9253C6.65983 27.1932 7.28711 28.361 8.08789 29.4287C8.86198 30.5231 9.76953 31.4907 10.8105 32.3315C11.8516 33.1724 12.986 33.8597 14.2139 34.3936C14.2939 34.4202 14.3674 34.4469 14.4341 34.4736C14.5008 34.5003 14.5742 34.5137 14.6543 34.5137C14.7344 34.5137 14.8078 34.507 14.8745 34.4937C14.9412 34.4803 15.0146 34.4603 15.0947 34.4336C15.1481 34.4069 15.2082 34.3735 15.2749 34.3335C15.3416 34.2935 15.4017 34.2467 15.4551 34.1934C15.5085 34.14 15.5552 34.0799 15.5952 34.0132C15.6353 33.9465 15.6686 33.8864 15.6953 33.833C15.722 33.7529 15.7487 33.6795 15.7754 33.6128C15.8021 33.5461 15.8154 33.4727 15.8154 33.3926C15.8154 33.3125 15.8088 33.2324 15.7954 33.1523C15.7821 33.0723 15.762 33.0055 15.7354 32.9521C15.7087 32.8721 15.6753 32.7987 15.6353 32.7319C15.5952 32.6652 15.5485 32.6051 15.4951 32.5518C15.4417 32.4984 15.3817 32.4517 15.3149 32.4116C15.2482 32.3716 15.1882 32.3382 15.1348 32.3115ZM35.9551 19.7793H34.834C34.7272 18.418 34.4469 17.11 33.9932 15.8555C33.5394 14.6009 32.9255 13.4264 32.1514 12.332C31.3773 11.2376 30.4631 10.27 29.4087 9.4292C28.3543 8.58838 27.2132 7.90104 25.9854 7.36719C25.932 7.34049 25.8652 7.32047 25.7852 7.30713C25.7051 7.29378 25.625 7.27376 25.5449 7.24707C25.4648 7.24707 25.3914 7.25374 25.3247 7.26709C25.258 7.28044 25.1846 7.30046 25.1045 7.32715C25.0244 7.35384 24.951 7.38721 24.8843 7.42725C24.8175 7.46729 24.7575 7.514 24.7041 7.56738C24.6507 7.62077 24.604 7.68083 24.564 7.74756C24.5239 7.81429 24.4906 7.87435 24.4639 7.92773C24.4372 8.00781 24.4105 8.08789 24.3838 8.16797C24.3571 8.24805 24.3438 8.32812 24.3438 8.4082C24.3438 8.46159 24.3504 8.52832 24.3638 8.6084C24.3771 8.68848 24.4105 8.76855 24.4639 8.84863C24.4906 8.90202 24.5239 8.96208 24.564 9.02881C24.604 9.09554 24.6507 9.1556 24.7041 9.20898C24.7575 9.26237 24.8175 9.30908 24.8843 9.34912C24.951 9.38916 25.0244 9.42253 25.1045 9.44922C26.1188 9.90299 27.0597 10.4836 27.9272 11.1909C28.7948 11.8983 29.5622 12.7057 30.2295 13.6133C30.8701 14.4941 31.384 15.4618 31.771 16.5161C32.158 17.5705 32.4049 18.6582 32.5117 19.7793H31.4307C31.2972 19.7793 31.1571 19.806 31.0103 19.8594C30.8634 19.9128 30.7367 19.9928 30.6299 20.0996C30.5231 20.2064 30.443 20.3265 30.3896 20.46C30.3363 20.5934 30.3096 20.7402 30.3096 20.9004C30.3096 21.0339 30.3363 21.174 30.3896 21.3208C30.443 21.4676 30.5231 21.5944 30.6299 21.7012C30.7367 21.8079 30.8634 21.888 31.0103 21.9414C31.1571 21.9948 31.2972 22.0215 31.4307 22.0215H32.5117C32.3783 23.4629 32.0046 24.8442 31.3906 26.1655C30.7767 27.4868 29.9492 28.668 28.9082 29.709C27.8939 30.75 26.7261 31.5775 25.4048 32.1914C24.0835 32.8053 22.6888 33.179 21.2207 33.3125V32.2314C21.2207 32.0713 21.194 31.9245 21.1406 31.791C21.0872 31.6576 21.0072 31.5374 20.9004 31.4307C20.7936 31.3239 20.6735 31.2438 20.54 31.1904C20.4066 31.137 20.2598 31.1104 20.0996 31.1104C19.9661 31.1104 19.826 31.137 19.6792 31.1904C19.5324 31.2438 19.4056 31.3239 19.2988 31.4307C19.1921 31.5374 19.112 31.6576 19.0586 31.791C19.0052 31.9245 18.9785 32.0713 18.9785 32.2314V36.7559C18.9785 36.916 19.0052 37.0628 19.0586 37.1963C19.112 37.3298 19.1921 37.4499 19.2988 37.5566C19.4056 37.6634 19.5324 37.7435 19.6792 37.7969C19.826 37.8503 19.9661 37.877 20.0996 37.877C20.2598 37.877 20.4066 37.8503 20.54 37.7969C20.6735 37.7435 20.7936 37.6634 20.9004 37.5566C21.0072 37.4499 21.0872 37.3298 21.1406 37.1963C21.194 37.0628 21.2207 36.916 21.2207 36.7559V35.5547C22.9824 35.4212 24.6641 34.9875 26.2656 34.2534C27.8672 33.5194 29.2819 32.5384 30.5098 31.3105C31.7643 30.056 32.7586 28.6346 33.4927 27.0464C34.2267 25.4582 34.6605 23.7832 34.7939 22.0215H35.9551C36.1152 22.0215 36.262 21.9948 36.3955 21.9414C36.529 21.888 36.6491 21.8079 36.7559 21.7012C36.8626 21.5944 36.9494 21.4676 37.0161 21.3208C37.0828 21.174 37.1162 21.0339 37.1162 20.9004C37.1162 20.7402 37.0828 20.5934 37.0161 20.46C36.9494 20.3265 36.8626 20.2064 36.7559 20.0996C36.6491 19.9928 36.529 19.9128 36.3955 19.8594C36.262 19.806 36.1152 19.7793 35.9551 19.7793Z"
+                  fill="white" />
+              </svg>
+            </div>
+            <h4 class="ju_fp_diff_card__title">Nội dung cá nhân hóa theo từng Fanpage</h4>
+          </div>
+        </div>
+        <!-- Cell 5: Báo cáo rõ ràng -->
+        <div>
+          <div class="ju_fp_diff_card">
+            <div class="ju_fp_diff_card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                <path
+                  d="M15.5752 16.9365C15.5752 17.3903 15.6419 17.8307 15.7754 18.2578C15.9089 18.6849 16.0957 19.0853 16.3359 19.459C16.5762 19.8327 16.8698 20.1597 17.2168 20.4399C17.5638 20.7202 17.9508 20.9404 18.3779 21.1006C18.7783 21.2874 19.2054 21.4009 19.6592 21.4409C20.113 21.481 20.5534 21.4609 20.9805 21.3809C21.4342 21.3008 21.8547 21.154 22.2417 20.9404C22.6287 20.7269 22.9824 20.46 23.3027 20.1396C23.623 19.8193 23.89 19.459 24.1035 19.0586C24.3171 18.6582 24.4639 18.2445 24.5439 17.8174C24.624 17.3636 24.644 16.9165 24.604 16.4761C24.564 16.0356 24.4639 15.6019 24.3037 15.1748C24.1169 14.7744 23.8833 14.4007 23.603 14.0537C23.3228 13.7067 22.9958 13.4131 22.6221 13.1729C22.2484 12.9059 21.848 12.7124 21.4209 12.5923C20.9938 12.4722 20.5534 12.4121 20.0996 12.4121C19.5124 12.4121 18.9385 12.5256 18.3779 12.7524C17.8174 12.9793 17.3236 13.3063 16.8965 13.7334C16.4694 14.1605 16.1424 14.6476 15.9155 15.1948C15.6886 15.742 15.5752 16.3226 15.5752 16.9365ZM22.3818 16.9365C22.3818 17.1501 22.3485 17.3636 22.2817 17.5771C22.215 17.7907 22.1149 17.9909 21.9814 18.1777C21.8747 18.3646 21.7345 18.5314 21.561 18.6782C21.3875 18.825 21.194 18.9385 20.9805 19.0186C20.7669 19.0986 20.5467 19.152 20.3198 19.1787C20.0929 19.2054 19.8727 19.1921 19.6592 19.1387C19.4456 19.112 19.2388 19.0452 19.0386 18.9385C18.8384 18.8317 18.6582 18.6982 18.498 18.5381C18.3379 18.3779 18.2044 18.1978 18.0977 17.9976C17.9909 17.7974 17.9242 17.5905 17.8975 17.377C17.8441 17.1634 17.8307 16.9432 17.8574 16.7163C17.8841 16.4894 17.9375 16.2692 18.0176 16.0557C18.0977 15.8421 18.2111 15.6486 18.3579 15.4751C18.5047 15.3016 18.6715 15.1615 18.8584 15.0547C19.0452 14.9212 19.2454 14.8211 19.459 14.7544C19.6725 14.6877 19.8861 14.6543 20.0996 14.6543C20.3932 14.6543 20.6802 14.7144 20.9604 14.8345C21.2407 14.9546 21.4876 15.1214 21.7012 15.335C21.9147 15.5485 22.0815 15.7954 22.2017 16.0757C22.3218 16.356 22.3818 16.6429 22.3818 16.9365ZM23.7832 26.4258L24.1436 27.5068C24.1969 27.6403 24.2703 27.7604 24.3638 27.8672C24.4572 27.974 24.5706 28.0674 24.7041 28.1475C24.8376 28.2275 24.9777 28.2676 25.1245 28.2676C25.2713 28.2676 25.4248 28.2542 25.585 28.2275C25.7184 28.1742 25.8452 28.0941 25.9653 27.9873C26.0854 27.8805 26.1722 27.7604 26.2256 27.627C26.3057 27.4935 26.3457 27.3534 26.3457 27.2065C26.3457 27.0597 26.3324 26.9196 26.3057 26.7861L25.9453 25.7051C25.7852 25.2513 25.5649 24.8309 25.2847 24.4438C25.0044 24.0568 24.6641 23.7298 24.2637 23.4629C23.89 23.196 23.4762 22.9891 23.0225 22.8423C22.5687 22.6955 22.1016 22.6221 21.6211 22.6221H18.5781C18.0977 22.6221 17.6372 22.6955 17.1968 22.8423C16.7563 22.9891 16.3359 23.196 15.9355 23.4629C15.5618 23.7298 15.2349 24.0568 14.9546 24.4438C14.6743 24.8309 14.4541 25.2513 14.2939 25.7051L13.9336 26.7861C13.9069 26.8395 13.8869 26.9062 13.8735 26.9863C13.8602 27.0664 13.8669 27.1465 13.8936 27.2266C13.8936 27.3066 13.9002 27.38 13.9136 27.4468C13.9269 27.5135 13.9469 27.5736 13.9736 27.627C14.027 27.707 14.0737 27.7738 14.1138 27.8271C14.1538 27.8805 14.2005 27.9339 14.2539 27.9873C14.3073 28.0407 14.3674 28.0874 14.4341 28.1274C14.5008 28.1675 14.5742 28.2008 14.6543 28.2275C14.7344 28.2275 14.8078 28.2342 14.8745 28.2476C14.9412 28.2609 15.0146 28.2676 15.0947 28.2676C15.1748 28.2676 15.2482 28.2542 15.3149 28.2275C15.3817 28.2008 15.4417 28.1742 15.4951 28.1475C15.5752 28.1208 15.6419 28.0807 15.6953 28.0273C15.7487 27.974 15.8021 27.9206 15.8555 27.8672C15.9089 27.8138 15.9556 27.7537 15.9956 27.687C16.0356 27.6203 16.069 27.5602 16.0957 27.5068L16.4561 26.4258C16.5361 26.1855 16.6429 25.972 16.7764 25.7852C16.9098 25.5983 17.07 25.4382 17.2568 25.3047C17.4704 25.1445 17.6906 25.0311 17.9175 24.9644C18.1444 24.8976 18.3779 24.8643 18.6182 24.8643H21.6211C21.8613 24.8643 22.0949 24.8976 22.3218 24.9644C22.5487 25.0311 22.7555 25.1445 22.9424 25.3047C23.1559 25.4382 23.3294 25.5983 23.4629 25.7852C23.5964 25.972 23.7031 26.1855 23.7832 26.4258ZM15.1348 32.3115C14.0938 31.8577 13.1395 31.2839 12.272 30.5898C11.4045 29.8958 10.6504 29.0951 10.0098 28.1875C9.34245 27.2799 8.81527 26.3057 8.42822 25.2646C8.04118 24.2236 7.79427 23.1426 7.6875 22.0215H8.76855C8.92871 22.0215 9.07552 21.9948 9.20898 21.9414C9.34245 21.888 9.46256 21.8079 9.56934 21.7012C9.67611 21.5944 9.75619 21.4676 9.80957 21.3208C9.86296 21.174 9.88965 21.0339 9.88965 20.9004C9.88965 20.7402 9.86296 20.5934 9.80957 20.46C9.75619 20.3265 9.67611 20.2064 9.56934 20.0996C9.46256 19.9928 9.34245 19.9128 9.20898 19.8594C9.07552 19.806 8.92871 19.7793 8.76855 19.7793H7.6875C7.82096 18.3112 8.19466 16.9165 8.80859 15.5952C9.42253 14.2739 10.25 13.1061 11.291 12.0918C12.332 11.0508 13.5132 10.2233 14.8345 9.60938C16.1558 8.99544 17.5371 8.62174 18.9785 8.48828V9.56934C18.9785 9.7028 19.0052 9.84294 19.0586 9.98975C19.112 10.1366 19.1921 10.2633 19.2988 10.3701C19.4056 10.4769 19.5324 10.557 19.6792 10.6104C19.826 10.6637 19.9661 10.6904 20.0996 10.6904C20.2598 10.6904 20.4066 10.6637 20.54 10.6104C20.6735 10.557 20.7936 10.4769 20.9004 10.3701C21.0072 10.2633 21.0872 10.1366 21.1406 9.98975C21.194 9.84294 21.2207 9.7028 21.2207 9.56934V5.04492C21.2207 4.88477 21.194 4.73796 21.1406 4.60449C21.0872 4.47103 21.0072 4.35091 20.9004 4.24414C20.7936 4.13737 20.6735 4.05062 20.54 3.98389C20.4066 3.91716 20.2598 3.88379 20.0996 3.88379C19.9661 3.88379 19.826 3.91716 19.6792 3.98389C19.5324 4.05062 19.4056 4.13737 19.2988 4.24414C19.1921 4.35091 19.112 4.47103 19.0586 4.60449C19.0052 4.73796 18.9785 4.88477 18.9785 5.04492V6.20605C17.2168 6.33952 15.5418 6.77328 13.9536 7.50732C12.3654 8.24137 10.944 9.23568 9.68945 10.4902C8.46159 11.7181 7.48063 13.1328 6.74658 14.7344C6.01253 16.3359 5.57878 18.0176 5.44531 19.7793H4.24414C4.08398 19.7793 3.93717 19.806 3.80371 19.8594C3.67025 19.9128 3.55013 19.9928 3.44336 20.0996C3.33659 20.2064 3.25651 20.3265 3.20312 20.46C3.14974 20.5934 3.12305 20.7402 3.12305 20.9004C3.12305 21.0339 3.14974 21.174 3.20312 21.3208C3.25651 21.4676 3.33659 21.5944 3.44336 21.7012C3.55013 21.8079 3.67025 21.888 3.80371 21.9414C3.93717 21.9948 4.08398 22.0215 4.24414 22.0215H5.36523C5.47201 23.3561 5.75228 24.6574 6.20605 25.9253C6.65983 27.1932 7.28711 28.361 8.08789 29.4287C8.86198 30.5231 9.76953 31.4907 10.8105 32.3315C11.8516 33.1724 12.986 33.8597 14.2139 34.3936C14.2939 34.4202 14.3674 34.4469 14.4341 34.4736C14.5008 34.5003 14.5742 34.5137 14.6543 34.5137C14.7344 34.5137 14.8078 34.507 14.8745 34.4937C14.9412 34.4803 15.0146 34.4603 15.0947 34.4336C15.1481 34.4069 15.2082 34.3735 15.2749 34.3335C15.3416 34.2935 15.4017 34.2467 15.4551 34.1934C15.5085 34.14 15.5552 34.0799 15.5952 34.0132C15.6353 33.9465 15.6686 33.8864 15.6953 33.833C15.722 33.7529 15.7487 33.6795 15.7754 33.6128C15.8021 33.5461 15.8154 33.4727 15.8154 33.3926C15.8154 33.3125 15.8088 33.2324 15.7954 33.1523C15.7821 33.0723 15.762 33.0055 15.7354 32.9521C15.7087 32.8721 15.6753 32.7987 15.6353 32.7319C15.5952 32.6652 15.5485 32.6051 15.4951 32.5518C15.4417 32.4984 15.3817 32.4517 15.3149 32.4116C15.2482 32.3716 15.1882 32.3382 15.1348 32.3115ZM35.9551 19.7793H34.834C34.7272 18.418 34.4469 17.11 33.9932 15.8555C33.5394 14.6009 32.9255 13.4264 32.1514 12.332C31.3773 11.2376 30.4631 10.27 29.4087 9.4292C28.3543 8.58838 27.2132 7.90104 25.9854 7.36719C25.932 7.34049 25.8652 7.32047 25.7852 7.30713C25.7051 7.29378 25.625 7.27376 25.5449 7.24707C25.4648 7.24707 25.3914 7.25374 25.3247 7.26709C25.258 7.28044 25.1846 7.30046 25.1045 7.32715C25.0244 7.35384 24.951 7.38721 24.8843 7.42725C24.8175 7.46729 24.7575 7.514 24.7041 7.56738C24.6507 7.62077 24.604 7.68083 24.564 7.74756C24.5239 7.81429 24.4906 7.87435 24.4639 7.92773C24.4372 8.00781 24.4105 8.08789 24.3838 8.16797C24.3571 8.24805 24.3438 8.32812 24.3438 8.4082C24.3438 8.46159 24.3504 8.52832 24.3638 8.6084C24.3771 8.68848 24.4105 8.76855 24.4639 8.84863C24.4906 8.90202 24.5239 8.96208 24.564 9.02881C24.604 9.09554 24.6507 9.1556 24.7041 9.20898C24.7575 9.26237 24.8175 9.30908 24.8843 9.34912C24.951 9.38916 25.0244 9.42253 25.1045 9.44922C26.1188 9.90299 27.0597 10.4836 27.9272 11.1909C28.7948 11.8983 29.5622 12.7057 30.2295 13.6133C30.8701 14.4941 31.384 15.4618 31.771 16.5161C32.158 17.5705 32.4049 18.6582 32.5117 19.7793H31.4307C31.2972 19.7793 31.1571 19.806 31.0103 19.8594C30.8634 19.9128 30.7367 19.9928 30.6299 20.0996C30.5231 20.2064 30.443 20.3265 30.3896 20.46C30.3363 20.5934 30.3096 20.7402 30.3096 20.9004C30.3096 21.0339 30.3363 21.174 30.3896 21.3208C30.443 21.4676 30.5231 21.5944 30.6299 21.7012C30.7367 21.8079 30.8634 21.888 31.0103 21.9414C31.1571 21.9948 31.2972 22.0215 31.4307 22.0215H32.5117C32.3783 23.4629 32.0046 24.8442 31.3906 26.1655C30.7767 27.4868 29.9492 28.668 28.9082 29.709C27.8939 30.75 26.7261 31.5775 25.4048 32.1914C24.0835 32.8053 22.6888 33.179 21.2207 33.3125V32.2314C21.2207 32.0713 21.194 31.9245 21.1406 31.791C21.0872 31.6576 21.0072 31.5374 20.9004 31.4307C20.7936 31.3239 20.6735 31.2438 20.54 31.1904C20.4066 31.137 20.2598 31.1104 20.0996 31.1104C19.9661 31.1104 19.826 31.137 19.6792 31.1904C19.5324 31.2438 19.4056 31.3239 19.2988 31.4307C19.1921 31.5374 19.112 31.6576 19.0586 31.791C19.0052 31.9245 18.9785 32.0713 18.9785 32.2314V36.7559C18.9785 36.916 19.0052 37.0628 19.0586 37.1963C19.112 37.3298 19.1921 37.4499 19.2988 37.5566C19.4056 37.6634 19.5324 37.7435 19.6792 37.7969C19.826 37.8503 19.9661 37.877 20.0996 37.877C20.2598 37.877 20.4066 37.8503 20.54 37.7969C20.6735 37.7435 20.7936 37.6634 20.9004 37.5566C21.0072 37.4499 21.0872 37.3298 21.1406 37.1963C21.194 37.0628 21.2207 36.916 21.2207 36.7559V35.5547C22.9824 35.4212 24.6641 34.9875 26.2656 34.2534C27.8672 33.5194 29.2819 32.5384 30.5098 31.3105C31.7643 30.056 32.7586 28.6346 33.4927 27.0464C34.2267 25.4582 34.6605 23.7832 34.7939 22.0215H35.9551C36.1152 22.0215 36.262 21.9948 36.3955 21.9414C36.529 21.888 36.6491 21.8079 36.7559 21.7012C36.8626 21.5944 36.9494 21.4676 37.0161 21.3208C37.0828 21.174 37.1162 21.0339 37.1162 20.9004C37.1162 20.7402 37.0828 20.5934 37.0161 20.46C36.9494 20.3265 36.8626 20.2064 36.7559 20.0996C36.6491 19.9928 36.529 19.9128 36.3955 19.8594C36.262 19.806 36.1152 19.7793 35.9551 19.7793Z"
+                  fill="white" />
+              </svg>
+            </div>
+            <h4 class="ju_fp_diff_card__title">Báo cáo rõ ràng – số liệu thật – dễ hiểu</h4>
+          </div>
+        </div>
+        <!-- Cell 6 (row 2, span 2): Dark "Được thiết kế" -->
+        <div class="ju_fp_diff__cell--design">
+          <div class="ju_fp_diff__design">
+            <h3 class="ju_fp_diff__design_title">Được thiết kế để tối đa hóa<br />hiệu quả tiếp thị</h3>
+            <p class="ju_fp_diff__design_desc">Lorem ipsum dolor sit amet consectetur. <br /> Ultricies et facilisis
+              ultrices
+              sodales. Nec sodales</p>
+            <a href="contact.html" class="ju_fp_diff__design_btn">Learn More <span uk-icon><svg
+                  xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 15" fill="none">
+                  <path
+                    d="M13.6496 2.3499C13.6496 2.21657 13.5996 2.0999 13.4996 1.9999C13.3996 1.8999 13.2829 1.8499 13.1496 1.8499H7.54961C7.41628 1.8499 7.29961 1.8999 7.19961 1.9999C7.09961 2.0999 7.04961 2.21657 7.04961 2.3499C7.04961 2.48324 7.09961 2.59157 7.19961 2.6749C7.29961 2.75824 7.41628 2.7999 7.54961 2.7999H11.9996L2.49961 12.2999C2.39961 12.3999 2.34961 12.5166 2.34961 12.6499C2.34961 12.7832 2.39961 12.8999 2.49961 12.9999C2.59961 13.0999 2.71628 13.1499 2.84961 13.1499C2.98294 13.1499 3.09961 13.0999 3.19961 12.9999L12.6996 3.4999V7.9499C12.6996 8.08324 12.7413 8.1999 12.8246 8.2999C12.9079 8.3999 13.0163 8.4499 13.1496 8.4499C13.2829 8.4499 13.3996 8.3999 13.4996 8.2999C13.5996 8.1999 13.6496 8.08324 13.6496 7.9499V2.3499Z"
+                    fill="white" />
+                </svg></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CASE STUDIES -->
+  <section class="ju_fp_cases">
+    <div class="uk-container">
+      <div class="ju_fp_cases__header">
+        <span class="ju_section_tag">
+          <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
+          </svg>
+          Case Study
+        </span>
+        <h2 class="ju_fp_cases__title">Học viên đã áp dụng SEO như thế nào <span>sau khóa học?</span></h2>
+        <p class="ju_fp_cases__subtitle">Từ freelancer, marketer đến chủ doanh nghiệp, học viên của chúng tôi đã áp
+          dụng SEO vào nhiều mô hình khác nhau và đạt được kết quả rõ ràng về traffic, thứ hạng và chuyển đổi.</p>
+      </div>
+      <div uk-grid class="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match">
+        <div>
+          <div class="ju_fp_case_card">
+            <div class="ju_fp_case_card__top">
+              <span class="ju_fp_case_card__tag">Y tế</span>
+              <h3 class="ju_fp_case_card__title">Website tăng trưởng 666% lượng truy cập trong 6 tháng</h3>
+            </div>
+            <div class="ju_fp_case_card__thumb">
+              <img src="image/fanpage/case-1.png" alt="Case study 1" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="ju_fp_case_card">
+            <div class="ju_fp_case_card__top">
+              <span class="ju_fp_case_card__tag">Y tế</span>
+              <h3 class="ju_fp_case_card__title">Website tăng trưởng 666% lượng truy cập trong 6 tháng</h3>
+            </div>
+            <div class="ju_fp_case_card__thumb">
+              <img src="image/fanpage/case-2.png" alt="Case study 2" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="ju_fp_case_card">
+            <div class="ju_fp_case_card__top">
+              <span class="ju_fp_case_card__tag">Y tế</span>
+              <h3 class="ju_fp_case_card__title">Website tăng trưởng 666% lượng truy cập trong 6 tháng</h3>
+            </div>
+            <div class="ju_fp_case_card__thumb">
+              <img src="image/fanpage/case-3.png" alt="Case study 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="ju_fp_testimonial">
+    <div class="uk-container">
+      <div uk-grid class="uk-flex-middle">
+        <!-- Left: header + slider -->
+        <div class="uk-width-1-1 uk-width-3-5@m">
+          <div class="ju_fp_testimonial__header">
+            <span class="ju_section_tag">
+              <svg class="ju_section_tag__diamond" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" />
+              </svg>
+              Testimonials
+            </span>
+            <h2 class="ju_fp_testimonial__title">Proven SEO result backed by <span>client testimonials</span></h2>
+            <p class="ju_fp_testimonial__subtitle">From increased rankings to higher conversions, our SEO strategies
+              deliver measurable success hear directly from the businesses.</p>
+          </div>
+          <div class="ju_fp_testimonial__slider" uk-slider="autoplay: true; autoplay-interval: 5000">
+            <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s">
+              <li>
+                <div class="ju_fp_testimonial_card">
+                  <div class="ju_fp_testimonial_card__stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                  </div>
+                  <p class="ju_fp_testimonial_card__quote">" Lorem ipsum dolor sit amet consectetur. Urna quis egestas
+                    proin lacus lacus aliquam. Ultrices platea dignissim eu consequat tristique. Tellus egestas amet et
+                    mi diam proin nullam pharetra lectus. Fringilla vel velit eget adipiscing"</p>
+                  <div class="ju_fp_testimonial_card__author">
+                    <img src="image/fanpage/tt-avatar-1.png" alt="Phan Lạc Duy"
+                      class="ju_fp_testimonial_card__avatar" />
+                    <div>
+                      <h4 class="ju_fp_testimonial_card__name">Phan Lạc Duy</h4>
+                      <p class="ju_fp_testimonial_card__role">Chức vụ</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ju_fp_testimonial_card">
+                  <div class="ju_fp_testimonial_card__stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                  </div>
+                  <p class="ju_fp_testimonial_card__quote">" Lorem ipsum dolor sit amet consectetur. Urna quis egestas
+                    proin lacus lacus aliquam. Ultrices platea dignissim eu consequat tristique. Tellus egestas amet et
+                    mi diam proin nullam pharetra lectus. Fringilla vel velit eget adipiscing"</p>
+                  <div class="ju_fp_testimonial_card__author">
+                    <img src="image/fanpage/tt-avatar-2.png" alt="Phan Lạc Duy"
+                      class="ju_fp_testimonial_card__avatar" />
+                    <div>
+                      <h4 class="ju_fp_testimonial_card__name">Phan Lạc Duy</h4>
+                      <p class="ju_fp_testimonial_card__role">Chức vụ</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ju_fp_testimonial_card">
+                  <div class="ju_fp_testimonial_card__stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                  </div>
+                  <p class="ju_fp_testimonial_card__quote">" Lorem ipsum dolor sit amet consectetur. Urna quis egestas
+                    proin lacus lacus aliquam. Ultrices platea dignissim eu consequat tristique. Tellus egestas amet et
+                    mi diam proin nullam pharetra lectus. Fringilla vel velit eget adipiscing"</p>
+                  <div class="ju_fp_testimonial_card__author">
+                    <img src="image/fanpage/tt-avatar-3.png" alt="Phan Lạc Duy"
+                      class="ju_fp_testimonial_card__avatar" />
+                    <div>
+                      <h4 class="ju_fp_testimonial_card__name">Phan Lạc Duy</h4>
+                      <p class="ju_fp_testimonial_card__role">Chức vụ</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ju_fp_testimonial_card">
+                  <div class="ju_fp_testimonial_card__stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                      <path
+                        d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                        fill="#FF7C16" />
+                    </svg>
+                  </div>
+                  <p class="ju_fp_testimonial_card__quote">" Lorem ipsum dolor sit amet consectetur. Urna quis egestas
+                    proin lacus lacus aliquam. Ultrices platea dignissim eu consequat tristique. Tellus egestas amet et
+                    mi diam proin nullam pharetra lectus. Fringilla vel velit eget adipiscing"</p>
+                  <div class="ju_fp_testimonial_card__author">
+                    <img src="image/fanpage/tt-avatar-4.png" alt="Phan Lạc Duy"
+                      class="ju_fp_testimonial_card__avatar" />
+                    <div>
+                      <h4 class="ju_fp_testimonial_card__name">Phan Lạc Duy</h4>
+                      <p class="ju_fp_testimonial_card__role">Chức vụ</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="uk-dotnav uk-flex-center uk-margin-top">
+              <li uk-slider-item="0"><a href="#"></a></li>
+              <li uk-slider-item="1"><a href="#"></a></li>
+              <li uk-slider-item="2"><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right: visual card with rating overlay -->
+        <div class="uk-width-1-1 uk-width-2-5@m">
+          <div class="ju_fp_testimonial__visual">
+            <div class="ju_fp_testimonial__rating">
+              <div class="ju_fp_testimonial__rating_avatars">
+                <img src="image/fanpage/tt-avatar-1.png" alt="Client" />
+                <img src="image/fanpage/tt-avatar-2.png" alt="Client" />
+                <img src="image/fanpage/tt-avatar-3.png" alt="Client" />
+                <img src="image/fanpage/tt-avatar-4.png" alt="Client" />
+              </div>
+              <div class="ju_fp_testimonial__rating_stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path
+                    d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                    fill="#FF7C16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path
+                    d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                    fill="#FF7C16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path
+                    d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                    fill="#FF7C16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path
+                    d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                    fill="#FF7C16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path
+                    d="M8.56088 13.7L4.41088 16.2C4.22754 16.3167 4.03588 16.3667 3.83588 16.35C3.63588 16.3333 3.46088 16.2667 3.31088 16.15C3.16088 16.0333 3.04421 15.8877 2.96088 15.713C2.87754 15.5383 2.86088 15.3423 2.91088 15.125L4.01088 10.4L0.335876 7.225C0.169209 7.075 0.0652091 6.904 0.0238758 6.712C-0.0174575 6.52 -0.00512426 6.33267 0.0608757 6.15C0.126876 5.96733 0.226876 5.81733 0.360876 5.7C0.494876 5.58267 0.678209 5.50767 0.910876 5.475L5.76088 5.05L7.63588 0.6C7.71921 0.4 7.84854 0.25 8.02388 0.15C8.19921 0.0499999 8.37821 0 8.56088 0C8.74354 0 8.92254 0.0499999 9.09788 0.15C9.27321 0.25 9.40254 0.4 9.48588 0.6L11.3609 5.05L16.2109 5.475C16.4442 5.50833 16.6275 5.58333 16.7609 5.7C16.8942 5.81667 16.9942 5.96667 17.0609 6.15C17.1275 6.33333 17.1402 6.521 17.0989 6.713C17.0575 6.905 16.9532 7.07567 16.7859 7.225L13.1109 10.4L14.2109 15.125C14.2609 15.3417 14.2442 15.5377 14.1609 15.713C14.0775 15.8883 13.9609 16.034 13.8109 16.15C13.6609 16.266 13.4859 16.3327 13.2859 16.35C13.0859 16.3673 12.8942 16.3173 12.7109 16.2L8.56088 13.7Z"
+                    fill="#FF7C16" />
+                </svg>
+              </div>
+              <p class="ju_fp_testimonial__rating_text">4.9/5 Average client rating</p>
             </div>
           </div>
         </div>
